@@ -1,0 +1,26 @@
+---
+import type { Crumb } from '../data/jsonld';
+
+interface Props {
+  crumbs: Crumb[];
+  align?: 'center' | 'left';
+}
+
+const { crumbs, align = 'center' } = Astro.props;
+---
+
+<nav class:list={['breadcrumbs', align === 'left' && 'breadcrumbs--left']} aria-label="Breadcrumb">
+  <ol>
+    {
+      crumbs.map((crumb, i) =>
+        i < crumbs.length - 1 && crumb.path ? (
+          <li>
+            <a href={crumb.path}>{crumb.name}</a>
+          </li>
+        ) : (
+          <li aria-current="page">{crumb.name}</li>
+        ),
+      )
+    }
+  </ol>
+</nav>

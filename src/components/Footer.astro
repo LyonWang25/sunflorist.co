@@ -1,0 +1,158 @@
+---
+import { site } from '../data/site';
+
+interface Props {
+  /** "full": dark three-column footer (homepage). "compact": single-line NAP (inner pages). */
+  variant?: 'full' | 'compact';
+}
+
+const { variant = 'compact' } = Astro.props;
+const year = new Date().getFullYear();
+const napLine = `${site.address.street}, ${site.address.city}, ${site.address.region}`;
+---
+
+{
+  variant === 'full' ? (
+    <footer class="footer footer--full">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <span class="footer-word">Sun Florist</span>
+          <p>Hand-composed florals for daily life, weddings and events.</p>
+        </div>
+        <div>
+          <span class="footer-heading">Visit</span>
+          <ul class="footer-list">
+            <li>{napLine}</li>
+            <li>{site.phoneDisplay}</li>
+            <li>{site.hours.label}</li>
+          </ul>
+        </div>
+        <div>
+          <span class="footer-heading">Order</span>
+          <ul class="footer-list">
+            <li>
+              <a href={site.whatsappHref}>WhatsApp</a>
+            </li>
+            <li>
+              <a href="/contact/#wechat">WeChat</a>
+            </li>
+            <li>
+              <a href={site.instagramHref}>Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-legal">
+        © {year} {site.name} · Serving {site.serviceAreaShort}
+      </div>
+    </footer>
+  ) : (
+    <footer class="footer footer--compact">
+      <div class="container">
+        <p class="footer-nap">
+          {site.name} · {napLine} · {site.phoneDisplay}
+        </p>
+        <p class="footer-legal-line">
+          © {year} {site.name} · {site.serviceAreaShort}
+        </p>
+      </div>
+    </footer>
+  )
+}
+
+<style>
+  /* ---- Full (homepage) ---- */
+  .footer--full {
+    background: var(--color-dark);
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 13px;
+    padding-block: var(--space-8);
+    margin-top: var(--space-section);
+  }
+
+  .footer-word {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: var(--space-2);
+  }
+
+  .footer-grid {
+    display: grid;
+    gap: var(--space-6);
+    text-align: center;
+  }
+
+  .footer-brand p {
+    margin: 0;
+  }
+
+  .footer-heading {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: var(--space-2);
+  }
+
+  .footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: var(--space-1);
+  }
+
+  .footer-list a {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  .footer-list a:hover {
+    color: #ffffff;
+  }
+
+  .footer-legal {
+    margin-top: var(--space-6);
+    padding-top: var(--space-4);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+  }
+
+  @media (min-width: 768px) {
+    .footer-grid {
+      grid-template-columns: 2fr 1fr 1fr;
+      text-align: left;
+    }
+  }
+
+  /* ---- Compact (inner pages) ---- */
+  .footer--compact {
+    border-top: 1px solid var(--color-divider);
+    margin-top: calc(var(--space-section) * 0.62);
+    padding-block: var(--space-6);
+    text-align: center;
+    font-size: 13px;
+    color: var(--color-text-muted);
+  }
+
+  .footer-nap,
+  .footer-legal-line {
+    margin: 0;
+  }
+
+  .footer-legal-line {
+    margin-top: var(--space-1);
+    font-size: 12px;
+  }
+
+  @media (min-width: 768px) {
+    .footer--compact {
+      margin-top: var(--space-section);
+    }
+  }
+</style>

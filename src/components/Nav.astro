@@ -1,0 +1,251 @@
+---
+interface Props {
+  /** "standard": white bar with divider (inner pages). "hero": transparent overlay with white text. */
+  variant?: 'standard' | 'hero';
+  /** slug of the active nav item: "collections" | "weddings" | "about" */
+  current?: string;
+}
+
+const { variant = 'standard', current } = Astro.props;
+
+const links = [
+  { label: 'Collections', href: '/products/', key: 'collections' },
+  { label: 'Weddings', href: '/products/category/wedding-events/', key: 'weddings' },
+  { label: 'About', href: '/about/', key: 'about' },
+];
+---
+
+<header class:list={['site-header', variant === 'hero' && 'site-header--hero']}>
+  <div class="container nav-row">
+    <a class="brand" href="/" aria-label="Sun Florist — home">
+      <svg
+        class="brand-mark"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 64 64"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="3"
+        aria-hidden="true"
+      >
+        <ellipse cx="32" cy="17" rx="6.5" ry="11"></ellipse>
+        <ellipse cx="32" cy="47" rx="6.5" ry="11"></ellipse>
+        <ellipse cx="17" cy="32" rx="11" ry="6.5"></ellipse>
+        <ellipse cx="47" cy="32" rx="11" ry="6.5"></ellipse>
+        <circle cx="32" cy="32" r="6" fill="currentColor" stroke="none"></circle>
+      </svg>
+      <!-- TODO: replace text wordmark with the real script logo asset -->
+      <span class="brand-word">Sun Florist</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" hidden>
+      <span class="visually-hidden">Menu</span>
+      <span class="nav-toggle-line" aria-hidden="true"></span>
+      <span class="nav-toggle-line" aria-hidden="true"></span>
+    </button>
+
+    <nav id="site-menu" class="site-nav" aria-label="Main">
+      <ul>
+        {
+          links.map((link) => (
+            <li>
+              <a href={link.href} aria-current={current === link.key ? 'page' : undefined}>
+                {link.label}
+              </a>
+            </li>
+          ))
+        }
+        <li>
+          <a class="btn nav-contact" href="/contact/">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script is:inline>
+  // Marker for progressive enhancement: menu collapses only when JS is available.
+  document.documentElement.classList.add('js');
+</script>
+
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>('.nav-toggle');
+  const menu = document.getElementById('site-menu');
+  if (toggle && menu) {
+    toggle.hidden = false;
+    toggle.addEventListener('click', () => {
+      const open = menu.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+  }
+</script>
+
+<style>
+  .site-header {
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-divider);
+  }
+
+  .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 72px;
+    padding-block: var(--space-2);
+    position: relative;
+  }
+
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-text);
+  }
+
+  .brand:hover {
+    color: var(--color-text);
+  }
+
+  .brand-mark {
+    width: 26px;
+    height: 26px;
+    color: var(--color-accent);
+  }
+
+  .brand-word {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+
+  .site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: var(--space-6);
+  }
+
+  .site-nav a:not(.btn) {
+    font-size: 14px;
+    color: var(--color-text);
+  }
+
+  .site-nav a:not(.btn):hover,
+  .site-nav a:not(.btn)[aria-current='page'] {
+    color: var(--color-accent-700);
+  }
+
+  .nav-contact {
+    min-height: 40px;
+    padding: var(--space-1) var(--space-5);
+  }
+
+  /* ---- Mobile ---- */
+  @media (max-width: 767px) {
+    .nav-row {
+      min-height: 60px;
+    }
+
+    .brand-word {
+      font-size: 21px;
+      line-height: 28px;
+    }
+
+    .nav-toggle {
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 7px;
+      width: 44px;
+      height: 44px;
+      padding: 0;
+      align-items: center;
+      background: none;
+      border: 0;
+      cursor: pointer;
+      color: var(--color-text);
+    }
+
+    .nav-toggle-line {
+      display: block;
+      width: 26px;
+      height: 1.5px;
+      background: currentColor;
+    }
+
+    /* Without JS the menu stays visible as plain stacked links. */
+    .site-nav {
+      flex-basis: 100%;
+      padding-block: var(--space-3) var(--space-4);
+    }
+
+    .site-nav ul {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+      text-align: center;
+    }
+
+    .site-nav a:not(.btn) {
+      display: block;
+      padding: var(--space-3);
+      font-size: 15px;
+    }
+
+    .site-nav .nav-contact {
+      margin-top: var(--space-3);
+    }
+
+    :global(html.js) .site-nav {
+      display: none;
+    }
+
+    :global(html.js) .site-nav.is-open {
+      display: block;
+    }
+  }
+
+  /* ---- Hero (transparent) variant ---- */
+  .site-header--hero {
+    position: absolute;
+    inset-inline: 0;
+    top: 0;
+    z-index: 10;
+    background: transparent;
+    border-bottom: 0;
+  }
+
+  .site-header--hero .brand,
+  .site-header--hero .brand-mark,
+  .site-header--hero .site-nav a:not(.btn),
+  .site-header--hero .nav-toggle {
+    color: #ffffff;
+  }
+
+  .site-header--hero .site-nav a:not(.btn):hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .site-header--hero .nav-contact {
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+
+  .site-header--hero .nav-contact:hover {
+    background: rgba(255, 255, 255, 0.14);
+  }
+
+  @media (max-width: 767px) {
+    .site-header--hero .site-nav {
+      background: rgba(20, 18, 14, 0.82);
+      margin-inline: calc(-1 * var(--container-pad));
+      padding-inline: var(--container-pad);
+    }
+  }
+</style>
