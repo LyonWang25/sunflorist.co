@@ -315,6 +315,20 @@ a:hover {
   font-size: 14px;
 }
 
+/* ---- Blur-up image loading (JS-gated so no-JS keeps images visible) ---- */
+.blur-up {
+  background-size: cover;
+  background-position: center;
+}
+
+.blur-up img {
+  transition: opacity 0.45s ease;
+}
+
+html.js .blur-up:not(.loaded) img {
+  opacity: 0;
+}
+
 /* ---- Roman numeral markers ---- */
 .roman {
   font-family: var(--font-body);

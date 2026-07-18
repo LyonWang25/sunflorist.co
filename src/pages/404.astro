@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Base
+  title="Page not found | Sun Florist"
+  description="The page you are looking for does not exist. Browse the Sun Florist collections or return to the homepage."
+>
+  <Nav />
+  <main class="container nf">
+    <span class="kicker">404</span>
+    <h1>Page not found</h1>
+    <hr class="gold-rule" />
+    <p>The page you're looking for has moved or never bloomed.</p>
+    <div class="nf-actions">
+      <a class="btn" href="/">Back to home</a>
+      <a class="btn btn--secondary" href="/products/">Browse the collections</a>
+    </div>
+  </main>
+  <Footer />
+</Base>
+
+<style>
+  .nf {
+    text-align: center;
+    padding-block: calc(var(--space-section) * 1.2);
+  }
+
+  .nf h1 {
+    margin-top: var(--space-3);
+  }
+
+  .nf p {
+    color: var(--color-text-muted);
+  }
+
+  .nf-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-3);
+    margin-top: var(--space-6);
+  }
+</style>

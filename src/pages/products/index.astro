@@ -1,0 +1,124 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import PageHead from '../../components/PageHead.astro';
+import { categories } from '../../data/categories';
+import { breadcrumbJsonLd } from '../../data/jsonld';
+import { categoryImage } from '../../utils/images';
+import { getProducts } from '../../utils/products';
+
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'Collections' }];
+
+const counts = new Map<string, number>();
+for (const cat of categories) {
+  if (!cat.consultationOnly) {
+    counts.set(cat.slug, (await getProducts(cat.slug)).length);
+  }
+}
+---
+
+<Base
+  title="Flower Collections | Sun Florist"
+  description="Browse the Sun Florist collections — hand-tied bouquets, wedding bouquets, preserved florals and full wedding & event design, serving DC, MD, VA and NC."
+  ogImage="/og/collections.jpg"
+  jsonLd={breadcrumbJsonLd(crumbs)}
+>
+  <Nav current="collections" />
+  <main>
+    <PageHead {crumbs} title="The Collections" />
+
+    <div class="container">
+      <div class="collections-grid">
+        {
+          categories.map((cat, i) => (
+            <a class="collection-card" href={`/products/category/${cat.slug}/`}>
+              <div class="collection-card-media">
+                <Image
+                  src={categoryImage(cat.cover)}
+                  widths={[480, 800, 1200]}
+                  sizes="(max-width: 767px) 100vw, 600px"
+                  format="webp"
+                  quality={75}
+                  alt={cat.coverAlt}
+                  loading={i < 2 ? 'eager' : 'lazy'}
+                  decoding="async"
+                />
+              </div>
+              <span class="roman">{cat.numeral}</span>
+              <span class="collection-card-name">{cat.name}</span>
+              <span class="collection-card-count">
+                {cat.consultationOnly ? 'By consultation' : `${counts.get(cat.slug)} designs`}
+              </span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Base>
+
+<style>
+  .collections-grid {
+    display: grid;
+    gap: var(--space-8) var(--space-6);
+  }
+
+  .collection-card {
+    display: block;
+    text-align: center;
+    color: var(--color-text);
+  }
+
+  .collection-card-media {
+    height: 300px;
+    overflow: hidden;
+    background: var(--color-surface);
+    margin-bottom: var(--space-3);
+  }
+
+  .collection-card-media :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .collection-card .roman {
+    display: block;
+  }
+
+  .collection-card-name {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: var(--space-1);
+  }
+
+  .collection-card:hover .collection-card-name {
+    color: var(--color-accent-700);
+  }
+
+  .collection-card-count {
+    display: block;
+    font-size: 13px;
+    color: var(--color-text-muted);
+    margin-top: var(--space-1);
+  }
+
+  @media (min-width: 768px) {
+    .collections-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .collection-card-media {
+      height: 380px;
+    }
+
+    .collection-card-name {
+      font-size: 28px;
+    }
+  }
+</style>

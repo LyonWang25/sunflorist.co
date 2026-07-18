@@ -1,0 +1,563 @@
+---
+import { Image, Picture, getImage } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import ContactButtons from '../components/ContactButtons.astro';
+import { site } from '../data/site';
+import { categories } from '../data/categories';
+import { floristJsonLd } from '../data/jsonld';
+import { siteImage, categoryImage } from '../utils/images';
+import { blurDataUrl } from '../utils/blur';
+
+const hero = siteImage('hero.jpg');
+const heroBlur = await blurDataUrl('site/hero.jpg');
+const heroWidths = [640, 1024, 1600, 2000];
+const heroSizes = '100vw';
+
+// Preload the LCP image only (AVIF variant; browsers skip unsupported types).
+const heroAvif = await getImage({
+  src: hero,
+  widths: heroWidths,
+  format: 'avif',
+  quality: 80,
+});
+
+const intro = siteImage('intro.jpg');
+const statement = siteImage('statement.jpg');
+const statementBlur = await blurDataUrl('site/statement.jpg');
+
+const gallery = Array.from({ length: 9 }, (_, i) => siteImage(`gallery-0${i + 1}.jpg`));
+---
+
+<Base
+  title="Sun Florist | Bouquets · Preserved Florals · Weddings — DC, MD, VA, NC"
+  description={site.description}
+  ogImage="/og/home.jpg"
+  jsonLd={floristJsonLd()}
+  preloadImage={{
+    href: heroAvif.src,
+    imagesrcset: heroAvif.srcSet.attribute,
+    imagesizes: heroSizes,
+    type: 'image/avif',
+  }}
+>
+  <!-- 1. Full-bleed hero -->
+  <section class="hero">
+    <div class="hero-media blur-up" style={`background-image:url(${heroBlur})`}>
+      <Picture
+        src={hero}
+        widths={heroWidths}
+        sizes={heroSizes}
+        formats={['avif', 'webp']}
+        quality={80}
+        alt="Lush floral arrangement of roses and seasonal blooms filling the frame"
+        loading="eager"
+        fetchpriority="high"
+      />
+    </div>
+    <Nav variant="hero" />
+    <div class="hero-content">
+      <h1>Sun Florist</h1>
+      <hr class="gold-rule hero-rule" />
+      <p class="hero-tagline">{site.tagline}</p>
+      <a class="btn btn--light hero-cta" href="/products/">Order Flowers</a>
+    </div>
+    <a class="hero-down" href="#intro" aria-label="Scroll to content">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22" aria-hidden="true">
+        <path d="m6 9 6 6 6-6"></path>
+      </svg>
+    </a>
+  </section>
+
+  <main>
+    <!-- 2. One-line introduction -->
+    <section class="intro section" id="intro">
+      <div class="container intro-grid">
+        <div class="intro-media">
+          <Image
+            src={intro}
+            widths={[480, 800]}
+            sizes="(max-width: 767px) 90vw, 520px"
+            format="webp"
+            quality={75}
+            alt="Florist arranging stems at the studio workbench"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+        <div class="intro-text">
+          <span class="kicker kicker--gold">{site.serviceAreaKicker}</span>
+          <h2>Crafting beauty <em>with flowers.</em></h2>
+          <p>Arranged by hand. Every order begins with a conversation.</p>
+          <a class="btn" href="/products/">View the collections</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. The Gallery (masonry) -->
+    <section class="gallery section">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">The Gallery</span>
+        </div>
+        <div class="masonry">
+          {
+            gallery.map((img, i) => (
+              <Image
+                src={img}
+                widths={[320, 480, 640]}
+                sizes="(max-width: 767px) 50vw, 33vw"
+                format="webp"
+                quality={75}
+                alt={`Floral studio photograph ${i + 1} — placeholder`}
+                loading="lazy"
+                decoding="async"
+              />
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. The Collections -->
+    <section class="collections section">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">The Collections</span>
+          <h2>Four studies in flowers</h2>
+          <hr class="gold-rule" />
+        </div>
+        <div class="collections-grid">
+          {
+            categories.map((cat) => (
+              <a class="collection-card" href={`/products/category/${cat.slug}/`}>
+                <div class="collection-card-media">
+                  <Image
+                    src={categoryImage(cat.cover)}
+                    widths={[320, 480, 640]}
+                    sizes="(max-width: 767px) 50vw, 300px"
+                    format="webp"
+                    quality={75}
+                    alt={cat.coverAlt}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <span class="collection-card-row">
+                  <span class="collection-card-name">{cat.name}</span>
+                  <span class="roman">{cat.numeral}</span>
+                </span>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Statement band -->
+    <section class="statement">
+      <div class="statement-media blur-up" style={`background-image:url(${statementBlur})`}>
+        <Image
+          src={statement}
+          widths={[640, 1024, 1600, 2000]}
+          sizes="100vw"
+          format="webp"
+          quality={75}
+          alt="Wedding ceremony florals styled outdoors"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+      <div class="statement-card">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#b68235" stroke-width="3" width="26" height="26" aria-hidden="true">
+          <ellipse cx="32" cy="17" rx="6.5" ry="11"></ellipse>
+          <ellipse cx="32" cy="47" rx="6.5" ry="11"></ellipse>
+          <ellipse cx="17" cy="32" rx="11" ry="6.5"></ellipse>
+          <ellipse cx="47" cy="32" rx="11" ry="6.5"></ellipse>
+          <circle cx="32" cy="32" r="6" fill="#b68235" stroke="none"></circle>
+        </svg>
+        <h2>Made to order.<br />Never off the shelf.</h2>
+        <p class="statement-serving">Serving {site.serviceAreaShort}</p>
+        <a class="btn" href="/contact/">Start an order</a>
+      </div>
+    </section>
+
+    <!-- 6. How to order -->
+    <section class="how section">
+      <div class="container">
+        <div class="section-head">
+          <h2>How to order</h2>
+          <hr class="gold-rule" />
+        </div>
+        <div class="how-grid">
+          <div class="how-card">
+            <h3>Weddings &amp; Events</h3>
+            <ol class="how-steps">
+              <li><span class="roman">i.</span> Let's meet</li>
+              <li><span class="roman">ii.</span> Plan &amp; design</li>
+              <li><span class="roman">iii.</span> We style the day</li>
+            </ol>
+            <a class="btn" href="/contact/">Start a consultation</a>
+          </div>
+          <div class="how-card">
+            <h3>Signature Bouquets</h3>
+            <ol class="how-steps">
+              <li><span class="roman">i.</span> Browse the collection</li>
+              <li><span class="roman">ii.</span> Message us your pick</li>
+              <li><span class="roman">iii.</span> Pick-up or delivery</li>
+            </ol>
+            <a class="btn" href="/products/category/bouquets/">View bouquets</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Order direct -->
+    <section class="order-direct section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Order direct</h2>
+          <p>Message us — we reply the same day.</p>
+        </div>
+        <ContactButtons phone />
+      </div>
+    </section>
+  </main>
+
+  <Footer variant="full" />
+</Base>
+
+<style>
+  /* ---- Hero ---- */
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    place-items: center;
+  }
+
+  .hero-media,
+  .hero-media :global(picture),
+  .hero-media :global(img) {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-media :global(img) {
+    object-fit: cover;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0) 42%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.38)
+    );
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+    padding-inline: var(--container-pad);
+  }
+
+  .hero-content h1 {
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    color: #ffffff;
+  }
+
+  .hero-rule {
+    background: var(--color-accent);
+  }
+
+  .hero-tagline {
+    font-size: 12px;
+    letter-spacing: 0.25em;
+    text-transform: lowercase;
+    margin: 0;
+  }
+
+  .hero-cta {
+    margin-top: var(--space-7);
+  }
+
+  .hero-down {
+    position: absolute;
+    bottom: var(--space-6);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: #ffffff;
+    display: inline-flex;
+    padding: var(--space-2);
+  }
+
+  .hero-down:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  @media (min-width: 768px) {
+    .hero-content h1 {
+      font-size: 104px;
+    }
+
+    .hero-cta {
+      display: none;
+    }
+  }
+
+  /* ---- Intro ---- */
+  .intro-grid {
+    text-align: center;
+  }
+
+  .intro-media {
+    display: none;
+  }
+
+  .intro-text .kicker {
+    margin-bottom: var(--space-4);
+  }
+
+  .intro-text h2 em {
+    font-style: italic;
+  }
+
+  .intro-text p {
+    color: var(--color-text-muted);
+    max-width: 34ch;
+    margin: var(--space-4) auto var(--space-6);
+  }
+
+  @media (min-width: 768px) {
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 1fr;
+      gap: var(--space-8);
+      align-items: center;
+      text-align: right;
+    }
+
+    .intro-media {
+      display: block;
+      position: relative;
+      padding: 0 var(--space-8) var(--space-8) 0;
+    }
+
+    /* offset editorial color block behind the photo */
+    .intro-media::before {
+      content: '';
+      position: absolute;
+      inset: var(--space-8) 0 0 var(--space-8);
+      background: var(--color-surface);
+    }
+
+    .intro-media :global(img) {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+
+    .intro-text p {
+      margin-inline: auto 0;
+    }
+  }
+
+  /* ---- Gallery masonry ---- */
+  .masonry {
+    column-count: 2;
+    column-gap: 10px;
+  }
+
+  .masonry :global(img) {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background: var(--color-surface);
+  }
+
+  @media (min-width: 768px) {
+    .masonry {
+      column-count: 3;
+      column-gap: 16px;
+    }
+
+    .masonry :global(img) {
+      margin-bottom: 16px;
+    }
+  }
+
+  /* ---- Collections ---- */
+  .collections-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4) var(--space-3);
+  }
+
+  .collection-card {
+    display: block;
+    color: var(--color-text);
+  }
+
+  .collection-card-media {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: var(--color-surface);
+  }
+
+  .collection-card-media :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .collection-card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: var(--space-2);
+    margin-top: var(--space-2);
+  }
+
+  .collection-card-name {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 17px;
+  }
+
+  .collection-card:hover .collection-card-name {
+    color: var(--color-accent-700);
+  }
+
+  @media (min-width: 768px) {
+    .collections-grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--space-6);
+    }
+  }
+
+  /* ---- Statement band ---- */
+  .statement {
+    margin-top: calc(var(--space-section) * 0.62);
+  }
+
+  .statement-media {
+    max-height: 520px;
+    overflow: hidden;
+  }
+
+  .statement-media :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .statement-card {
+    position: relative;
+    background: var(--color-bg);
+    text-align: center;
+    padding: var(--space-8) var(--space-6);
+    margin: -80px var(--space-4) 0;
+    box-shadow: 0 1px 0 var(--color-divider) inset;
+  }
+
+  .statement-card svg {
+    margin-inline: auto;
+    display: block;
+    margin-bottom: var(--space-4);
+  }
+
+  .statement-card h2 {
+    font-size: 28px;
+  }
+
+  .statement-serving {
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin: var(--space-3) 0 var(--space-6);
+  }
+
+  @media (min-width: 768px) {
+    .statement {
+      margin-top: var(--space-section);
+    }
+
+    .statement-card {
+      width: 560px;
+      margin: -220px auto 0;
+      padding: var(--space-8);
+    }
+
+    .statement-card h2 {
+      font-size: 34px;
+    }
+  }
+
+  /* ---- How to order ---- */
+  .how-grid {
+    display: grid;
+    gap: var(--space-4);
+  }
+
+  .how-card {
+    border: 1px solid var(--color-divider);
+    border-radius: var(--radius-lg);
+    padding: var(--space-7) var(--space-6);
+    text-align: center;
+  }
+
+  .how-card h3 {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: var(--space-4);
+  }
+
+  .how-steps {
+    list-style: none;
+    margin: 0 0 var(--space-6);
+    padding: 0;
+    display: grid;
+    gap: var(--space-2);
+    font-size: 14px;
+  }
+
+  .how-steps .roman {
+    margin-right: var(--space-1);
+  }
+
+  @media (min-width: 768px) {
+    .how-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-6);
+      max-width: 920px;
+      margin-inline: auto;
+    }
+  }
+
+  /* ---- Order direct ---- */
+  .order-direct .section-head p {
+    color: var(--color-text-muted);
+    margin-top: var(--space-3);
+  }
+
+  .order-direct :global(.contact-buttons) {
+    max-width: 560px;
+    margin-inline: auto;
+  }
+</style>

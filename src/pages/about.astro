@@ -1,0 +1,123 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { breadcrumbJsonLd } from '../data/jsonld';
+import { siteImage } from '../utils/images';
+
+const crumbs = [{ name: 'Home', path: '/' }, { name: 'About' }];
+---
+
+<Base
+  title="About | Sun Florist"
+  description="Sun Florist is a boutique floral studio serving Washington DC, Maryland, Virginia and North Carolina — every piece composed by hand, one order at a time."
+  ogImage="/og/about.jpg"
+  jsonLd={breadcrumbJsonLd(crumbs)}
+>
+  <Nav current="about" />
+  <main class="container about">
+    <div class="about-grid">
+      <div class="about-media">
+        <Image
+          src={siteImage('about.jpg')}
+          widths={[480, 800, 1200]}
+          sizes="(max-width: 767px) 100vw, 600px"
+          format="webp"
+          quality={75}
+          alt="Florist holding a hand-tied arrangement of garden roses and berries"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+      <div class="about-text">
+        <Breadcrumbs {crumbs} align="left" />
+        <h1>The Studio</h1>
+        <hr class="gold-rule gold-rule--left" />
+        <p>
+          A boutique floral studio serving Washington DC, Maryland, Virginia and North Carolina.
+          Every piece is composed by hand, one order at a time.
+        </p>
+        <ul class="hairline-rows about-list">
+          <li><span class="roman">i.</span> Hand-composed, never off the shelf</li>
+          <li><span class="roman">ii.</span> Fresh, preserved &amp; wedding work</li>
+          <li><span class="roman">iii.</span> Delivery across the capital region</li>
+        </ul>
+        <a class="btn" href="/contact/">Get in touch</a>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Base>
+
+<style>
+  .about {
+    padding-top: var(--space-8);
+  }
+
+  .about-grid {
+    display: grid;
+    gap: var(--space-6);
+  }
+
+  .about-media :global(img) {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    background: var(--color-surface);
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .about-text h1 {
+    margin-top: var(--space-3);
+  }
+
+  .about-text .gold-rule--left {
+    margin-inline: auto;
+  }
+
+  .about-text p {
+    color: var(--color-text-muted);
+    max-width: 48ch;
+    margin-inline: auto;
+  }
+
+  .about-list {
+    text-align: left;
+    margin-block: var(--space-6);
+  }
+
+  .about-list li {
+    justify-content: flex-start;
+    gap: var(--space-2);
+    font-size: 14px;
+  }
+
+  @media (min-width: 768px) {
+    .about-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-8);
+      align-items: center;
+    }
+
+    .about-media :global(img) {
+      height: 560px;
+    }
+
+    .about-text {
+      text-align: left;
+    }
+
+    .about-text .gold-rule--left {
+      margin-inline: 0;
+    }
+
+    .about-text p {
+      margin-inline: 0;
+    }
+  }
+</style>

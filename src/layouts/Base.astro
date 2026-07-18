@@ -13,6 +13,7 @@ interface Props {
     href: string;
     imagesrcset?: string;
     imagesizes?: string;
+    type?: string;
   };
 }
 
@@ -43,6 +44,7 @@ const { title, description, ogType, ogImage, jsonLd, preloadImage } = Astro.prop
           href={preloadImage.href}
           imagesrcset={preloadImage.imagesrcset}
           imagesizes={preloadImage.imagesizes}
+          type={preloadImage.type}
           fetchpriority="high"
         />
       )
@@ -53,5 +55,17 @@ const { title, description, ogType, ogImage, jsonLd, preloadImage } = Astro.prop
   </head>
   <body>
     <slot />
+    <script>
+      // Blur-up fade-in (media-performance-spec §4). Containers with .blur-up
+      // carry an inline low-res background; the sharp image fades in 200ms
+      // after load. Without JS the image is simply visible from the start.
+      document.querySelectorAll<HTMLElement>('.blur-up').forEach((wrap) => {
+        const img = wrap.querySelector('img');
+        if (!img) return;
+        const reveal = () => wrap.classList.add('loaded');
+        if (img.complete) reveal();
+        else img.addEventListener('load', () => setTimeout(reveal, 200), { once: true });
+      });
+    </script>
   </body>
 </html>

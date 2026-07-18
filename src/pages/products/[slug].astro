@@ -1,0 +1,415 @@
+---
+import { Image, Picture, getImage } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import ContactButtons from '../../components/ContactButtons.astro';
+import { site } from '../../data/site';
+import { getCategory } from '../../data/categories';
+import { breadcrumbJsonLd, productJsonLd } from '../../data/jsonld';
+import { productImage } from '../../utils/images';
+import { getProducts, type Product } from '../../utils/products';
+import { blurDataUrl } from '../../utils/blur';
+
+export async function getStaticPaths() {
+  const products = await getProducts();
+  return products.map((product) => ({ params: { slug: product.data.slug }, props: { product } }));
+}
+
+interface Props {
+  product: Product;
+}
+
+const { product } = Astro.props;
+const { name, no, category, price, palette, size, images, description } = product.data;
+const cat = getCategory(category)!;
+const path = `/products/${product.data.slug}/`;
+
+const metas = images.map((file) => productImage(file));
+const mainBlur = await blurDataUrl(`products/${images[0]}`);
+
+const mainWidths = [480, 800, 1200];
+const mainSizes = '(max-width: 767px) 100vw, 660px';
+const mainAvif = await getImage({ src: metas[0]!, widths: mainWidths, format: 'avif', quality: 80 });
+
+// og:image — the main photo cropped to 1200×630 at build time
+const ogCrop = await getImage({
+  src: metas[0]!,
+  width: 1200,
+  height: 630,
+  fit: 'cover',
+  format: 'jpeg',
+  quality: 80,
+});
+
+// absolute image URLs for Product JSON-LD
+const jsonLdImages = await Promise.all(
+  metas.map((m) => getImage({ src: m, width: 1200, format: 'webp', quality: 80 })),
+);
+
+const related = (await getProducts(category)).filter((p) => p.data.slug !== product.data.slug).slice(0, 3);
+
+const visibleCrumbs = [
+  { name: 'Collections', path: '/products/' },
+  { name: cat.name, path: `/products/category/${cat.slug}/` },
+];
+
+const jsonLd = [
+  productJsonLd({
+    name,
+    description,
+    imageUrls: jsonLdImages.map((img) => `${site.url}${img.src}`),
+    price,
+    path,
+  }),
+  breadcrumbJsonLd([
+    { name: 'Home', path: '/' },
+    { name: 'Collections', path: '/products/' },
+    { name: cat.name, path: `/products/category/${cat.slug}/` },
+    { name },
+  ]),
+];
+---
+
+<Base
+  title={`${name} | Sun Florist`}
+  description={description}
+  ogType="product"
+  ogImage={`${site.url}${ogCrop.src}`}
+  jsonLd={jsonLd}
+  preloadImage={{
+    href: mainAvif.src,
+    imagesrcset: mainAvif.srcSet.attribute,
+    imagesizes: mainSizes,
+    type: 'image/avif',
+  }}
+>
+  <Nav current="collections" />
+  <main class="container pd">
+    <div class="pd-grid">
+      <!-- gallery: scroll-snap carousel (dots on mobile, thumbnails on desktop) -->
+      <div class="pd-gallery">
+        <div class="pd-scroller blur-up" style={`background-image:url(${mainBlur})`} tabindex="0">
+          {
+            metas.map((img, i) => (
+              <div class="pd-slide">
+                <Picture
+                  src={img}
+                  widths={mainWidths}
+                  sizes={mainSizes}
+                  formats={['avif', 'webp']}
+                  quality={80}
+                  alt={i === 0 ? description : `${name} — view ${i + 1}`}
+                  loading={i === 0 ? 'eager' : 'lazy'}
+                  fetchpriority={i === 0 ? 'high' : undefined}
+                  decoding={i === 0 ? undefined : 'async'}
+                />
+              </div>
+            ))
+          }
+        </div>
+        <div class="pd-dots" hidden>
+          {metas.map((_, i) => <button type="button" aria-label={`Go to image ${i + 1}`} />)}
+        </div>
+        <div class="pd-thumbs">
+          {
+            metas.map((img, i) => (
+              <button class="pd-thumb" type="button" aria-label={`Show image ${i + 1}`}>
+                <Image
+                  src={img}
+                  widths={[160, 320]}
+                  sizes="104px"
+                  format="webp"
+                  quality={75}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </button>
+            ))
+          }
+        </div>
+      </div>
+
+      <!-- info column -->
+      <div class="pd-info">
+        <Breadcrumbs crumbs={visibleCrumbs} align="left" />
+        <h1>{name}</h1>
+        <p class="pd-price tnum">${price}</p>
+        <p class="pd-description">{description}</p>
+
+        <ul class="hairline-rows pd-specs">
+          <li><span class="row-label">No.</span><span class="tnum">{no}</span></li>
+          <li><span class="row-label">Palette</span><span>{palette}</span></li>
+          <li><span class="row-label">Size</span><span>{size}</span></li>
+        </ul>
+
+        <div class="pd-order">
+          <h2>To order this piece</h2>
+          <p>
+            Message us <strong>“{name} · {no}”</strong> on any of these — we reply the same day.
+          </p>
+          <ContactButtons />
+        </div>
+      </div>
+    </div>
+
+    {
+      related.length > 0 && (
+        <section class="pd-related">
+          <div class="section-head">
+            <span class="kicker">You may also like</span>
+          </div>
+          <div class="pd-related-grid">
+            {related.map((p) => (
+              <ProductCard
+                name={p.data.name}
+                href={`/products/${p.data.slug}/`}
+                image={productImage(p.data.images[0]!)}
+                imageAlt={p.data.description}
+                price={p.data.price}
+                loading="lazy"
+              />
+            ))}
+          </div>
+        </section>
+      )
+    }
+  </main>
+  <Footer />
+</Base>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.pd-gallery').forEach((gallery) => {
+    const scroller = gallery.querySelector<HTMLElement>('.pd-scroller');
+    if (!scroller) return;
+    const slides = Array.from(scroller.children) as HTMLElement[];
+    if (slides.length < 2) return;
+
+    const dotsWrap = gallery.querySelector<HTMLElement>('.pd-dots');
+    const dots = dotsWrap ? Array.from(dotsWrap.querySelectorAll('button')) : [];
+    const thumbs = Array.from(gallery.querySelectorAll<HTMLButtonElement>('.pd-thumb'));
+    if (dotsWrap) dotsWrap.hidden = false;
+
+    const goTo = (i: number) =>
+      scroller.scrollTo({ left: slides[i]!.offsetLeft, behavior: 'smooth' });
+    dots.forEach((dot, i) => dot.addEventListener('click', () => goTo(i)));
+    thumbs.forEach((thumb, i) => thumb.addEventListener('click', () => goTo(i)));
+
+    const setActive = (i: number) => {
+      dots.forEach((d, j) => d.classList.toggle('is-active', j === i));
+      thumbs.forEach((t, j) => t.classList.toggle('is-active', j === i));
+    };
+    setActive(0);
+    scroller.addEventListener(
+      'scroll',
+      () => {
+        const i = Math.round(scroller.scrollLeft / scroller.clientWidth);
+        setActive(Math.max(0, Math.min(slides.length - 1, i)));
+      },
+      { passive: true },
+    );
+  });
+</script>
+
+<style>
+  .pd {
+    padding-top: var(--space-6);
+  }
+
+  /* ---- gallery ---- */
+  .pd-gallery {
+    position: relative;
+  }
+
+  .pd-scroller {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    background-color: var(--color-surface);
+  }
+
+  .pd-scroller::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pd-slide {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+  }
+
+  .pd-slide :global(img) {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+  }
+
+  .pd-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: var(--space-3);
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+  }
+
+  .pd-dots button {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.55);
+    cursor: pointer;
+  }
+
+  .pd-dots button.is-active {
+    background: #ffffff;
+  }
+
+  .pd-thumbs {
+    display: none;
+  }
+
+  /* mobile: full-bleed image strip */
+  @media (max-width: 767px) {
+    .pd-gallery {
+      margin-inline: calc(-1 * var(--container-pad));
+    }
+  }
+
+  /* ---- info column ---- */
+  .pd-info {
+    text-align: center;
+    padding-top: var(--space-6);
+  }
+
+  .pd-info h1 {
+    font-size: 36px;
+    margin-top: var(--space-3);
+  }
+
+  .pd-price {
+    color: var(--color-accent-700);
+    font-size: 16px;
+    margin: var(--space-2) 0 var(--space-4);
+  }
+
+  .pd-description {
+    color: var(--color-text-muted);
+    max-width: 44ch;
+    margin-inline: auto;
+  }
+
+  .pd-specs {
+    margin-block: var(--space-6);
+    text-align: left;
+  }
+
+  .pd-order {
+    border: 1px solid var(--color-divider);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    text-align: center;
+  }
+
+  .pd-order h2 {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+  }
+
+  .pd-order p {
+    font-size: 14px;
+    color: var(--color-text-muted);
+    margin: var(--space-3) 0 var(--space-5);
+  }
+
+  .pd-order strong {
+    color: var(--color-text);
+    font-weight: 600;
+  }
+
+  /* ---- related ---- */
+  .pd-related {
+    margin-top: calc(var(--space-section) * 0.62);
+  }
+
+  .pd-related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-3);
+  }
+
+  /* ---- desktop ---- */
+  @media (min-width: 768px) {
+    .pd {
+      padding-top: var(--space-8);
+    }
+
+    .pd-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: var(--space-8);
+      align-items: start;
+    }
+
+    .pd-slide :global(img) {
+      height: 560px;
+    }
+
+    .pd-dots {
+      display: none !important;
+    }
+
+    .pd-thumbs {
+      display: flex;
+      gap: var(--space-3);
+      margin-top: var(--space-3);
+    }
+
+    .pd-thumb {
+      padding: 0;
+      border: 1px solid transparent;
+      background: none;
+      cursor: pointer;
+      width: 104px;
+    }
+
+    .pd-thumb.is-active {
+      border-color: var(--color-accent);
+    }
+
+    .pd-thumb :global(img) {
+      display: block;
+      width: 100%;
+      height: 104px;
+      object-fit: cover;
+    }
+
+    .pd-info {
+      text-align: left;
+      padding-top: 0;
+    }
+
+    .pd-info h1 {
+      font-size: 52px;
+    }
+
+    .pd-description {
+      margin-inline: 0;
+    }
+
+    .pd-related {
+      margin-top: var(--space-section);
+    }
+
+    .pd-related-grid {
+      gap: var(--space-6);
+    }
+  }
+</style>
