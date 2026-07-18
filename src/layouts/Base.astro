@@ -1,0 +1,57 @@
+---
+import Seo from '../components/Seo.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  ogType?: string;
+  ogImage?: string;
+  jsonLd?: object | object[];
+  /** preload data for the page's single LCP image (hero / product main) */
+  preloadImage?: {
+    href: string;
+    imagesrcset?: string;
+    imagesizes?: string;
+  };
+}
+
+const { title, description, ogType, ogImage, jsonLd, preloadImage } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap"
+    />
+
+    {
+      preloadImage && (
+        <link
+          rel="preload"
+          as="image"
+          href={preloadImage.href}
+          imagesrcset={preloadImage.imagesrcset}
+          imagesizes={preloadImage.imagesizes}
+          fetchpriority="high"
+        />
+      )
+    }
+
+    <Seo {title} {description} {ogType} {ogImage} {jsonLd} />
+    <slot name="head" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
