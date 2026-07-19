@@ -507,12 +507,19 @@ const jsonLd = [
       align-items: start;
     }
 
+    /* let the gallery column shrink to its track size — without this a long
+       thumbnail row forces the column wider and squeezes the info column */
+    .pd-gallery {
+      min-width: 0;
+    }
+
     .pd-dots {
       display: none !important;
     }
 
     .pd-thumbs {
       display: flex;
+      flex-wrap: wrap;
       gap: var(--space-3);
       margin-top: var(--space-3);
     }
