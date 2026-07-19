@@ -27,20 +27,33 @@ const addressLine = `${site.address.street}, ${site.address.city}, ${site.addres
       <div class="contact-channels">
         <ContactButtons phone layout="grid" />
 
-        <div class="wechat-note" id="wechat">
-          <p>
-            WeChat: <strong>{site.wechatId}</strong>
-          </p>
-          <Image
-            src={siteImage('wechat-qr.jpg')}
-            widths={[160, 320]}
-            sizes="140px"
-            format="webp"
-            quality={75}
-            alt={`WeChat QR code for ${site.name}`}
-            loading="lazy"
-            decoding="async"
-          />
+        <div class="qr-row" id="wechat">
+          <figure>
+            <Image
+              src={siteImage('wechat-qr.jpg')}
+              widths={[160, 320]}
+              sizes="150px"
+              format="webp"
+              quality={80}
+              alt={`WeChat QR code — scan to add ${site.wechatName}`}
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>WeChat · {site.wechatName}</figcaption>
+          </figure>
+          <figure>
+            <Image
+              src={siteImage('whatsapp-qr.jpg')}
+              widths={[160, 320]}
+              sizes="150px"
+              format="webp"
+              quality={80}
+              alt={`WhatsApp QR code — scan to message ${site.name}`}
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>WhatsApp</figcaption>
+          </figure>
         </div>
 
         <ul class="hairline-rows contact-info">
@@ -71,22 +84,31 @@ const addressLine = `${site.address.street}, ${site.address.city}, ${site.addres
     padding-top: var(--space-4);
   }
 
-  .wechat-note {
-    margin-top: var(--space-5);
+  .qr-row {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-7);
+    margin-top: var(--space-6);
+  }
+
+  .qr-row figure {
+    margin: 0;
     text-align: center;
-    font-size: 14px;
-    color: var(--color-text-muted);
   }
 
-  .wechat-note strong {
-    color: var(--color-text);
-  }
-
-  .wechat-note :global(img) {
-    width: 140px;
-    height: 140px;
-    margin: var(--space-2) auto 0;
+  .qr-row :global(img) {
+    width: 150px;
+    height: 150px;
+    margin-inline: auto;
     border: 1px solid var(--color-divider);
+    padding: var(--space-2);
+    background: #ffffff;
+  }
+
+  .qr-row figcaption {
+    margin-top: var(--space-2);
+    font-size: 13px;
+    color: var(--color-text-muted);
   }
 
   .contact-info {

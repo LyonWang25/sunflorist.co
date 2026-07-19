@@ -28,10 +28,13 @@ export const site = {
   phoneHref: 'tel:+10000000000', // TODO: real phone (E.164)
   phoneE164: '+1-000-000-0000', // TODO: real phone for JSON-LD
 
-  whatsappHref: 'https://wa.me/10000000000', // TODO: real WhatsApp number
-  wechatId: 'WECHAT-ID', // TODO: real WeChat ID
-  instagramHref: 'https://instagram.com/sunflorist', // TODO: real Instagram URL
-  instagramHandle: '@sunflorist', // TODO: real Instagram handle
+  /** official WhatsApp contact link (decoded from the account QR) */
+  whatsappHref: 'https://wa.me/qr/TTFXAVYSVVD6L1',
+  /** WeChat add-friend link (decoded from the account QR); opens the app on mobile */
+  wechatHref: 'https://u.wechat.com/kIACFMbe_rQ6tbAersGJJbY',
+  wechatName: 'SunFlorist',
+  instagramHref: 'https://www.instagram.com/sun_florist.co/',
+  instagramHandle: '@sun_florist.co',
 
   hours: {
     label: 'Mon–Sat · 9:00–19:00',
