@@ -49,6 +49,11 @@ const jsonLdImages = await Promise.all(
   metas.map((m) => getImage({ src: m, width: 1200, format: 'webp', quality: 80 })),
 );
 
+// high-res variants for the click-to-enlarge lightbox (never upscale)
+const fullImages = await Promise.all(
+  metas.map((m) => getImage({ src: m, width: Math.min(1800, m.width), format: 'webp', quality: 82 })),
+);
+
 const related = (await getProducts(category)).filter((p) => p.data.slug !== product.data.slug).slice(0, 3);
 
 const visibleCrumbs = [
@@ -99,21 +104,47 @@ const jsonLd = [
           {
             metas.map((img, i) => (
               <div class="pd-slide">
-                <Picture
-                  src={img}
-                  widths={mainWidths}
-                  sizes={mainSizes}
-                  formats={['avif', 'webp']}
-                  quality={80}
-                  alt={i === 0 ? description : `${name} — view ${i + 1}`}
-                  loading={i === 0 ? 'eager' : 'lazy'}
-                  fetchpriority={i === 0 ? 'high' : undefined}
-                  decoding={i === 0 ? undefined : 'async'}
-                />
+                <button
+                  class="pd-zoom"
+                  type="button"
+                  data-full={fullImages[i]!.src}
+                  data-alt={i === 0 ? description : `${name} — view ${i + 1}`}
+                  aria-label={`Enlarge image ${i + 1}`}
+                >
+                  <Picture
+                    src={img}
+                    widths={mainWidths}
+                    sizes={mainSizes}
+                    formats={['avif', 'webp']}
+                    quality={80}
+                    alt={i === 0 ? description : `${name} — view ${i + 1}`}
+                    loading={i === 0 ? 'eager' : 'lazy'}
+                    fetchpriority={i === 0 ? 'high' : undefined}
+                    decoding={i === 0 ? undefined : 'async'}
+                  />
+                </button>
               </div>
             ))
           }
         </div>
+        <dialog class="pd-lightbox" aria-label={`${name} — enlarged photos`}>
+          <button class="pd-lightbox-close" type="button" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26" aria-hidden="true">
+              <path d="M6 6l12 12M18 6L6 18"></path>
+            </svg>
+          </button>
+          <button class="pd-lightbox-nav pd-lightbox-prev" type="button" aria-label="Previous image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28" aria-hidden="true">
+              <path d="m15 6-6 6 6 6"></path>
+            </svg>
+          </button>
+          <img alt="" />
+          <button class="pd-lightbox-nav pd-lightbox-next" type="button" aria-label="Next image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28" aria-hidden="true">
+              <path d="m9 6 6 6-6 6"></path>
+            </svg>
+          </button>
+        </dialog>
         <div class="pd-dots" hidden>
           {metas.map((_, i) => <button type="button" aria-label={`Go to image ${i + 1}`} />)}
         </div>
@@ -216,6 +247,46 @@ const jsonLd = [
       { passive: true },
     );
   });
+
+  // click-to-enlarge lightbox
+  document.querySelectorAll<HTMLElement>('.pd-gallery').forEach((gallery) => {
+    const dialog = gallery.querySelector<HTMLDialogElement>('.pd-lightbox');
+    const zooms = Array.from(gallery.querySelectorAll<HTMLButtonElement>('.pd-zoom'));
+    if (!dialog || !zooms.length || typeof dialog.showModal !== 'function') return;
+
+    const view = dialog.querySelector('img')!;
+    const prev = dialog.querySelector<HTMLButtonElement>('.pd-lightbox-prev')!;
+    const next = dialog.querySelector<HTMLButtonElement>('.pd-lightbox-next')!;
+    let current = 0;
+
+    if (zooms.length < 2) {
+      prev.hidden = true;
+      next.hidden = true;
+    }
+
+    const show = (i: number) => {
+      current = (i + zooms.length) % zooms.length;
+      view.src = zooms[current]!.dataset.full!;
+      view.alt = zooms[current]!.dataset.alt ?? '';
+    };
+    zooms.forEach((zoom, i) =>
+      zoom.addEventListener('click', () => {
+        show(i);
+        dialog.showModal();
+      }),
+    );
+    prev.addEventListener('click', () => show(current - 1));
+    next.addEventListener('click', () => show(current + 1));
+    dialog.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') show(current - 1);
+      if (e.key === 'ArrowRight') show(current + 1);
+    });
+    // click on the backdrop (outside the image and buttons) closes
+    dialog.addEventListener('click', (e) => {
+      if (e.target === dialog) dialog.close();
+    });
+    dialog.querySelector('.pd-lightbox-close')!.addEventListener('click', () => dialog.close());
+  });
 </script>
 
 <style>
@@ -249,10 +320,80 @@ const jsonLd = [
     scroll-snap-align: center;
   }
 
+  .pd-zoom {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: zoom-in;
+  }
+
   .pd-slide :global(img) {
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+
+  /* ---- lightbox ---- */
+  .pd-lightbox {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    max-width: 100vw;
+    max-height: 100vh;
+    outline: none;
+  }
+
+  .pd-lightbox::backdrop {
+    background: rgba(20, 18, 14, 0.92);
+  }
+
+  .pd-lightbox img {
+    display: block;
+    max-width: min(92vw, 1100px);
+    max-height: 88vh;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+
+  .pd-lightbox button {
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .pd-lightbox button:hover {
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .pd-lightbox-close {
+    top: var(--space-4);
+    right: var(--space-4);
+  }
+
+  .pd-lightbox-nav {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .pd-lightbox-prev {
+    left: var(--space-4);
+  }
+
+  .pd-lightbox-next {
+    right: var(--space-4);
   }
 
   .pd-dots {
