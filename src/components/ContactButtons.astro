@@ -12,8 +12,8 @@ const { phone = false, layout = 'row' } = Astro.props;
 ---
 
 <div class:list={['contact-buttons', `contact-buttons--${layout}`]}>
-  <a class="btn" href={site.whatsappHref}>WhatsApp</a>
-  <a class="btn" href={site.wechatHref}>WeChat</a>
+  <a class="btn" href={site.whatsappHref} data-chat-cta>WhatsApp</a>
+  <a class="btn" href={site.wechatHref} data-chat-cta>WeChat</a>
   <a class="btn" href={site.instagramHref}>Instagram</a>
   {phone && <a class="btn btn--secondary" href={site.phoneHref}>Call us</a>}
 </div>

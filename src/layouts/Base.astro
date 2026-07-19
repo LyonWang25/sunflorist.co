@@ -66,6 +66,17 @@ const { title, description, ogType, ogImage, jsonLd, preloadImage } = Astro.prop
         if (img.complete) reveal();
         else img.addEventListener('load', () => setTimeout(reveal, 200), { once: true });
       });
+
+      // Device-aware chat CTAs: WhatsApp / WeChat deep links only make sense
+      // where the app can open (phones/tablets). On desktop, point the
+      // buttons at the contact page QR codes to scan instead.
+      const canOpenChatApps =
+        /Android|iPhone|iPod/i.test(navigator.userAgent) || navigator.maxTouchPoints > 1;
+      if (!canOpenChatApps) {
+        document
+          .querySelectorAll<HTMLAnchorElement>('[data-chat-cta]')
+          .forEach((link) => (link.href = '/contact/#wechat'));
+      }
     </script>
   </body>
 </html>
