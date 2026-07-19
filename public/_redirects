@@ -1,0 +1,24 @@
+# Cloudflare Pages redirects — Shopify → new site
+# Product handles were kept as slugs, so /products/{handle} URLs still work
+# (Astro adds the trailing slash itself). Only non-product Shopify URL
+# patterns need mapping.
+
+# products viewed inside a collection
+/collections/*/products/:handle /products/:handle/ 301
+
+# collection pages → closest category
+/collections/bouquets /products/category/bouquets/ 301
+/collections/wedding /products/category/wedding-bouquets/ 301
+/collections/all /products/ 301
+/collections/* /products/ 301
+
+# two handles contained emoji and were renamed
+/products/heart-on-the-left-love-on-the-right-%E2%9D%A4%EF%B8%8F /products/heart-on-the-left-love-on-the-right/ 301
+/products/%F0%9F%8E%93-graduation-bouquets /products/graduation-bouquets/ 301
+
+# standard Shopify pages
+/pages/contact /contact/ 301
+/pages/about /about/ 301
+/pages/* / 301
+/blogs/* / 301
+/cart /contact/ 301

@@ -1,0 +1,1158 @@
+Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option1 Linked To,Option2 Name,Option2 Value,Option2 Linked To,Option3 Name,Option3 Value,Option3 Linked To,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Unit Price Total Measure,Unit Price Total Measure Unit,Unit Price Base Measure,Unit Price Base Measure Unit,Variant Barcode,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Google Shopping / Google Product Category,Google Shopping / Gender,Google Shopping / Age Group,Google Shopping / MPN,Google Shopping / Condition,Google Shopping / Custom Product,Google Shopping / Custom Label 0,Google Shopping / Custom Label 1,Google Shopping / Custom Label 2,Google Shopping / Custom Label 3,Google Shopping / Custom Label 4,Bought together products (product.metafields.globo--filter--product_recommendation.bought_together_products),Complementary products (product.metafields.globo--filter--product_recommendation.complementary_products),Related products (product.metafields.globo--filter--product_recommendation.related_products),Google: Custom Product (product.metafields.mm-google-shopping.custom_product),Age group (product.metafields.shopify.age-group),Arrangement (product.metafields.shopify.arrangement),Art/Crafting tool material (product.metafields.shopify.art-crafting-tool-material),Color (product.metafields.shopify.color-pattern),Decoration material (product.metafields.shopify.decoration-material),Jewelry material (product.metafields.shopify.jewelry-material),Jewelry type (product.metafields.shopify.jewelry-type),Plant characteristics (product.metafields.shopify.plant-characteristics),Plant class (product.metafields.shopify.plant-class),Plant name (product.metafields.shopify.plant-name),Ring design (product.metafields.shopify.ring-design),Stem length (product.metafields.shopify.stem-length),Suitable space (product.metafields.shopify.suitable-space),Target gender (product.metafields.shopify.target-gender),Complementary products (product.metafields.shopify--discovery--product_recommendation.complementary_products),Related products (product.metafields.shopify--discovery--product_recommendation.related_products),Related products settings (product.metafields.shopify--discovery--product_recommendation.related_products_display),Search product boosts (product.metafields.shopify--discovery--product_search_boost.queries),Variant Image,Variant Weight Unit,Variant Tax Code,Cost per item,Included / United States,Price / United States,Compare At Price / United States,Status
+cake-flower,Cake Flower,<p>DM us for customize </p>,Sun Florist,Home & Garden > Decor > Artificial Flora > Artificial Flowering Plants,Bouquets,"Bouquets, gift",true,Title,Default Title,,,,,,,,,0.0,,deny,manual,126.00,,false,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2981.jpg?v=1770516444,1,"",false,,,6265,,,,,,,,,,,,,,,,,,floral,plastic; polyester,,,,magnoliopsida,rose,,,,,,,,,,lb,,,true,,,active
+cake-flower,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2909.jpg?v=1770516444,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+cake-flower,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2911.jpg?v=1770516444,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+cake-flower,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2928.jpg?v=1770516444,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+cake-flower,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2990.jpg?v=1770516444,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pink-tulip-with-calla,Pink-Tulip with calla,"",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers > Lilies,Bouquets,"Bouquets, Wedding",true,Title,Default Title,,,,,,,,,0.0,,deny,manual,166.00,,false,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3613.jpg?v=1770515990,1,"",false,,,2899,,,,,,,,,,,,,,,,,,pink; white,,,,,,,,,,,,,,,,lb,,,true,,,active
+pink-tulip-with-calla,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3617.jpg?v=1770515990,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+calla-lily-mini-cranberry,Calla Lily Mini Cranberry,"",Sun Florist,Home & Garden > Decor > Artificial Flora > Artificial Flowering Plants,Bouquets,"Bouquets, Wedding",true,Title,Default Title,,,,,,,,,0.0,,deny,manual,128.00,,false,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ba94c1d38680d9d7f718a8e729b3f959.jpg?v=1770515807,1,"",false,,,6265,,,,,,,,,,,,,,,,,,red,,,,,,,,,,,,,,,,lb,,,true,,,active
+calla-lily-mini-cranberry,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/dfb4ac3ddeb8878bf4b0bc97fff0b8e6.jpg?v=1770515807,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+v-day,V Day,"",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers > Roses,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,,0.0,,deny,manual,128.00,,false,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1585.jpg?v=1770095357,1,"",false,,,2899,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,true,,,active
+v-day,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1586.jpg?v=1770095357,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+v-day,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1584.jpg?v=1770095357,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+v-day,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1587.jpg?v=1770095357,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+french-cascade-bouquet,French cascade bouquet,"<p><span> </span></p>
+<div class="""">How to choose a chic French cascade<br>
+</div>
+<div class="""">bouquet🤍<br>
+</div>
+<div class="""">A soft white-and-green palette, featuring calla lilies and<br>
+</div>
+<div class="""">orchids, creates those graceful, flowing<br>
+</div>
+<div class="""">French-romantic lines.<br>
+</div>
+<div class="""">True elegance is always built from the smallest, most<br>
+</div>
+<div class="""">delicate details 🦢<br>
+</div>
+<div class=""""><br></div>
+<div class="""">A mini cascade bouquet doesn’t feel overly grand —<br>
+</div>
+<div class="""">instead, it highlights a bride’s natural poise and<br>
+</div>
+<div class="""">effortless beauty, full of life and movement<br>
+</div>
+<div class=""""><br></div>
+<div class="""">Special thanks to our amazing photographer<br>
+</div>
+<div class="""">@filmbyxiao<br>
+</div>
+<div class="""">Every shoot turns into a masterpiece!<br>
+</div>
+<div class=""""><br></div>
+<div class="""">#SunFlorist #CascadeBouquet #FrenchStyleWedding<br>
+</div>
+<div class="""">#BridalBouquet #DCFlorist #NCFlorist #FLFlorist<br>
+</div>
+<div class="""">#WhiteGreenWedding #elegantbride</div>",Sun Florist,Uncategorized,Bouquets,"Bouquets, Wedding",true,Title,Default Title,,,,,,,,,0.0,,deny,manual,162.00,,false,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/Image_20251216131458_136_14.jpg?v=1770094582,1,"",false,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,true,,,active
+french-cascade-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/Image_20251216131502_137_14.jpg?v=1770094582,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+french-cascade-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/Image_20251216131509_140_14.jpg?v=1770094582,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+french-cascade-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/Image_20251216131511_141_14.jpg?v=1770094582,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+french-cascade-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/Image_20251216131523_144_14.jpg?v=1770094582,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+french-cascade-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/Image_20251216131530_146_14.jpg?v=1770094582,6,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+french-cascade-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/Image_20251216131540_149_14.jpg?v=1770094582,7,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,Florals Wearable,"<p>✨ Florals make it wearable 💍🌿 </p>
+<p><span>So excited to share something special with you all.</span><br><span>We recently partnered with the design label Thirdfloor </span><a class=""x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz notranslate _a6hd"" href=""https://www.instagram.com/third_floor_art/"" role=""link"" tabindex=""0"">@third_floor_art</a><span> , known for their exquisite handcrafted botanical jewelry made from real, natural plants.</span><br><br><span>The first time I stepped into their studio, honestly didn’t want to leave — every piece felt like a tiny work of art.</span><br><span>Each flower and leaf is one-of-a-kind, preserved and transformed through fine jewelry craftsmanship into truly bespoke designs.</span><br><br><span>My Favorites:</span><br><span>Dreamlike Illusion — mica + pearls, soft and ethereal, like something a forest fairy would wear</span><br><span>Black Flame — bold, mysterious, and unapologetically unique</span><br><br><span>Because no two plants are ever the same, every piece is uniquely yours — made for your story, your style, your moment.</span><br><br><span>Best part?</span><br><span>North America friends can now find them through Sun Florist 🌸</span><br><span>(Ship anywhere in USA)</span><br><br><span>DM us for details or to reserve your favorite 💌</span> (Ship anywhere in USA) </p>
+<p>#BotanicalJewelry #WearableFlowers #Handcrafted #DCFlorist #NCFlorist #FloralArt #NatureInspired##jhu #virginia ##marryland #washintondc #ncflorist #durhamnc #fortlauderdalebeach #weddingphotography #rosebouquet #weddinglook #wedding #weddingwear #weddingphotos #weddingplanning #weddingphotography 1h</p>",Sun Florist,Apparel & Accessories > Jewelry > Rings,Accessories,"",true,Title,Default Title,,,,,,,,,0.0,,deny,manual,70.00,,false,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3529.jpg?v=1770094264,1,"",false,,,200,,adult,,,,,,,,,,,,,adults,,,floral,,metal,fine-jewelry,,,,,,,female,,,,,,lb,,,true,,,active
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3535.jpg?v=1770094264,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3544.jpg?v=1770094264,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3547.jpg?v=1770094264,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3557.jpg?v=1770094263,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3569.jpg?v=1770094264,6,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3582.jpg?v=1770094264,7,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3586.jpg?v=1770094264,8,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3595.jpg?v=1770094264,9,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3598.jpg?v=1770094264,10,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3603.jpg?v=1770094264,11,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3620.jpg?v=1770094264,12,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+florals-wearable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3627.jpg?v=1770094264,13,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pink-floyd,Pink Floyd,"",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers > Roses,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,,0.0,,deny,manual,133.00,,false,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6354_0fdd8939-04c1-4a2d-bf7f-516a4e43c5dd.jpg?v=1770093746,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,pink,,,,,,,,medium,,,,,,,,lb,,,true,,,active
+pink-floyd,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6344_cbeefb2c-fa0c-4f33-b3e4-9415f627da06.jpg?v=1770093746,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pink-floyd,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4005_739ad41a-c756-4179-87e1-359c3989b8ae.jpg?v=1770093746,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pink-floyd,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6356.jpg?v=1770093747,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+inspired-by-jellycat2,Inspired by Jellycat(2),"<p data-start=""94"" data-end=""267"">🐰✨ A bouquet as soft and whimsical as your favorite plush.<br data-start=""149"" data-end=""152"">Tucked with tulips, bell flowers, and childhood dreams.<br data-start=""207"" data-end=""210"">Perfect for springtime strolls or pastel-hearted souls 💕</p>
+<p data-start=""269"" data-end=""282"">— Sun Florist</p>
+<p data-start=""269"" data-end=""282""><span>Photographer : <span style=""color: rgb(0, 0, 0);""><a style=""color: rgb(0, 0, 0);"" href=""https://www.instagram.com/filmbyxiao/"">@filmbyxiao (Instagram)</a></span></span></p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Wedding",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,128.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ShirleyOliver-10.jpg?v=1750309154,1,"",false,,,,,,,,,,,,,,,,,,,bouquet,,floral; white,,,,,,,,,,,,,,,,lb,,,true,,,active
+inspired-by-jellycat2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ShirleyOliver-4.jpg?v=1750309264,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+inspired-by-jellycat2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ShirleyOliver-3.jpg?v=1750309264,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+inspired-by-jellycat2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ShirleyOliver-2.jpg?v=1750309264,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the-embodiment-of-love-and-happiness-2,The Embodiment of Love and Happiness (2),"<p class="""" data-end=""380"" data-start=""122"">Designed for a bride's most unforgettable day, this bouquet features the exquisite <strong data-end=""227"" data-start=""205"">David Austin roses</strong>, known for their sophisticated fragrance and romantic form. Their ivory petals gently blush with a hint of pink—like a quiet heartbeat at first sight.</p>
+<p class="""" data-end=""522"" data-start=""382"">Peeking through the delicate blooms, the <strong data-end=""435"" data-start=""423"">clematis</strong> adds a playful touch, symbolizing the joyful anticipation of love’s new chapter. 🕊️</p>
+<p class="""" data-end=""707"" data-start=""524""><strong data-end=""540"" data-start=""524"">Perfect for:</strong> Bridal bouquets, engagement shoots, or intimate ceremonies<br data-end=""602"" data-start=""599""><strong data-end=""624"" data-start=""602"">Floral Highlights:</strong> David Austin roses, clematis, soft seasonal accents with a fresh, romantic scent</p>
+<p class="""" data-end=""707"" data-start=""524""><span>Photographer : <span style=""color: rgb(0, 0, 0);""><a style=""color: rgb(0, 0, 0);"" href=""https://www.instagram.com/filmbyxiao/"">@filmbyxiao (Instagram)</a></span></span></p>",Sun Florist,Religious & Ceremonial > Wedding Ceremony Supplies,Bouquets,"Bouquets, Wedding",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,158.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250527JessieZLlogo-23_crop_1682308c-844a-4fbf-ae91-c00489937166.jpg?v=1750308711,1,"",false,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,true,,,active
+the-embodiment-of-love-and-happiness-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250527JessieZLlogo-24_crop.jpg?v=1750308711,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the-embodiment-of-love-and-happiness-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250527JessieZLlogo-25_crop.jpg?v=1750308711,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the-embodiment-of-love-and-happiness-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250527JessieZLlogo-27_crop.jpg?v=1750308711,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+elegance-in-motion,Elegance in Motion,<p>A bridal bouquet with airy drapes and delicate flow — perfect for a graceful walk down the aisle.</p>,Sun Florist,Religious & Ceremonial > Wedding Ceremony Supplies,Bouquets,Wedding,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,165.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3592_9d760ad7-4bf1-47ff-8e83-e96f8f9aad04.jpg?v=1750281286,1,"",false,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,true,,,active
+elegance-in-motion,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3612_97cef630-51a8-4b85-8421-b51d084a82b2.jpg?v=1750281286,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lily-of-the-valley-love,Lily of the Valley Love,"<p>Symbolizing happiness and a return to sweetness, this bouquet blends tulip grace with the delicate charm of Lily of the Valley.</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers > Lilies,Bouquets,Wedding,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,174.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6861.jpg?v=1750280847,1,"",false,,,,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,medium,,,,,,,,lb,,,true,,,active
+soft-blush-sweet-bloom,"Soft Blush, Sweet Bloom","<p>A gentle palette for your sweetest moments — perfect for weddings, photoshoots, or graduation. </p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Wedding,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,182.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2690.jpg?v=1750280618,1,"",false,,,,,,,,,,,,,,,,,,,,,pink,,,,,,,,,,,,,,,,lb,,,true,,,active
+soft-blush-sweet-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5839.jpg?v=1750280618,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+soft-blush-sweet-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5829.jpg?v=1750280619,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+soft-blush-sweet-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5836.jpg?v=1750280619,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+soft-grace,Soft Grace,"<p data-start=""57"" data-end=""204"">A bouquet in hues of ivory, sky blue, and lilac —<br data-start=""106"" data-end=""109"">gentle yet elegant, like a whisper of love.<br data-start=""152"" data-end=""155"">Perfect for your “I do” or a forever memory. 🤍💐</p>
+<p data-start=""206"" data-end=""219"">— Sun Florist</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Wedding,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,131.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3655.jpg?v=1750280331,1,"",false,,,,,,,,,,,,,,,,,,,bouquet,,white; floral,,,,,,,,,,,,,,,,lb,,,true,,,active
+soft-grace,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3969.jpg?v=1750280331,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+orchid,Orchid,"<p data-start=""78"" data-end=""234"">A bridal bouquet kissed by light and sky —<br data-start=""120"" data-end=""123"">with delicate orchids, starry blues, and snow-white blooms.<br data-start=""182"" data-end=""185"">For the ones who bloom in grace and clarity. 🤍💙</p>
+<p data-start=""236"" data-end=""249"">— Sun Florist</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers > Orchids,Bouquets,Wedding,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,194.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3619.jpg?v=1750279074,1,"",false,,,,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,,,,,,,,,lb,,,true,,,active
+orchid,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3616.jpg?v=1750279074,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+inspired-by-jellycat,Inspired by Jellycat,"<p data-start=""94"" data-end=""267"">🐰✨ A bouquet as soft and whimsical as your favorite plush.<br data-start=""149"" data-end=""152"">Tucked with tulips, bell flowers, and childhood dreams.<br data-start=""207"" data-end=""210"">Perfect for springtime strolls or pastel-hearted souls 💕</p>
+<p data-start=""269"" data-end=""282"">— Sun Florist</p>",Sun Florist,Home & Garden > Plants > Flowers,Bouquets,Wedding,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,134.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6473.jpg?v=1750278783,1,"",false,,,,,,,,,,,,,,,,,,,,,white; pink,,,,,,tulip,,,outdoors,,,,,,,lb,,,true,,,active
+inspired-by-jellycat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6464.jpg?v=1750278783,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+love-in-every-petal,Love in Every Petal,"<p data-start=""86"" data-end=""229"">Soft blush roses and white alstroemeria,<br data-start=""126"" data-end=""129"">wrapped in warmth and a whisper of romance.<br data-start=""172"" data-end=""175"">The kind of bouquet that says <em data-start=""205"" data-end=""229"">""I’m thinking of you.""</em></p>
+<p data-start=""231"" data-end=""244"">— Sun Florist</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers > Roses,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,121.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5604.jpg?v=1750278372,1,"",false,,,,,,,,,,,,,,,,,,,bouquet,,pink,,,,,,,,,,,,,,,,lb,,,true,,,active
+english-garden-whisper,English Garden Whisper,"<p data-start=""89"" data-end=""262"">Soft blush petals of Austin roses, unfolding like poetry.<br data-start=""146"" data-end=""149"">Elegant, timeless, and full of quiet romance.<br data-start=""194"" data-end=""197"">Perfect for a tender confession, an anniversary, or just because.</p>
+<p data-start=""264"" data-end=""277"">— Sun Florist</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers > Roses,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,151.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2522.jpg?v=1750278264,1,"",false,,,,,,,,,,,,,,,,,,,bouquet,,pink; floral,,,,,,,,long,,,,,,,,lb,,,true,,,active
+english-garden-whisper,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2529.jpg?v=1750278264,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+english-garden-whisper,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2532.jpg?v=1750278264,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+english-garden-whisper,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2549.jpg?v=1750278264,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+english-garden-whisper,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2563.jpg?v=1750278264,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lavender-waltz,Lavender Waltz,"<p data-start=""79"" data-end=""168"">A dreamy palette of lavender, icy blue, and blush pink, composed like a delicate waltz.</p>
+<p data-start=""170"" data-end=""342"">Anemones, carnations, delphinium—each bloom dances with grace and softness.<br data-start=""245"" data-end=""248"">Perfect for graduations, birthdays, or simply gifting a little beauty to someone special. 🌸🎀</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,182.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5659.jpg?v=1750277383,1,"",false,,,,,,,,,,,,,,,,,,,bouquet,,floral; purple,,,,,,,,,,,,,,,,lb,,,true,,,active
+lavender-waltz,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5696.jpg?v=1750277383,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lavender-waltz,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5638.jpg?v=1750277383,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lavender-waltz,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5650.jpg?v=1750277383,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+starry-night-in-bloom,"Starry Night, in Bloom","<p data-start=""201"" data-end=""422"">A bouquet drawn from the colors of the cosmos—<br data-start=""247"" data-end=""250"">deep sapphire, gentle ivory, bursts of yellow.<br data-start=""296"" data-end=""299"">🌙💙 Just like Van Gogh’s <em data-start=""325"" data-end=""339"">Starry Night</em>,<br data-start=""340"" data-end=""343"">this arrangement captures the stillness of night and the wildness of emotion.</p>
+<p data-start=""424"" data-end=""520"">Crafted for the dreamers, the artists, the ones who carry stars in their hearts.<br data-start=""504"" data-end=""507"">— Sun Florist</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,154.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5466.jpg?v=1750277017,1,"",false,,,,,,,,,,,,,,,,,,,bouquet,,blue; yellow,,,,,,,,,,,,,,,,lb,,,true,,,active
+starry-night-in-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5471.jpg?v=1750277017,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+starry-night-in-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5486.jpg?v=1750277017,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+starry-night-in-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5489.jpg?v=1750277017,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the-rose-of-confidence,The Rose of Confidence,"<p data-start=""260"" data-end=""447"">This isn't just any rose —<br data-start=""286"" data-end=""289"">it's the <strong data-start=""298"" data-end=""314"">freedom rose</strong>, also known as the <strong data-start=""334"" data-end=""351"">“Lacôme rose”</strong>.<br data-start=""352"" data-end=""355"">Bold, rich, unapologetically elegant — the floral muse of beauty icons and timeless power.</p>
+<p data-start=""449"" data-end=""564"">Wrapped in jet black for that haute-couture edge.<br data-start=""498"" data-end=""501"">Only for the ones who bloom on their own terms.<br></p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers > Roses,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,138.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6344.jpg?v=1750276729,1,"",false,,,,,,,,,,,,,,,,,,,,,pink,,,,,,,,,,,,,,,,lb,,,true,,,active
+the-rose-of-confidence,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6354.jpg?v=1750276729,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the-rose-of-confidence,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4005.jpg?v=1750276729,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lavender-reverie,Lavender Reverie,"<p data-start=""147"" data-end=""263"">Delicate hues of lilac and blush,<br data-start=""180"" data-end=""183"">like a page torn from a dream.<br data-start=""213"" data-end=""216"">Elegant, ethereal, and effortlessly romantic.</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,153.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5739_08d9a3f2-7e14-49f1-8950-8345a4356972.jpg?v=1750276270,1,"",false,,,,,,,,,,,,,,,,,,,bouquet,,purple,,,,,,,,,,,,,,,,lb,,,true,,,active
+lavender-reverie,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5742_2cc5ea93-768f-4afa-a0ec-01cb6bb7ec55.jpg?v=1750276269,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lavender-reverie,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5756_0474133a-a03f-4abd-b33a-6303e6c141bb.jpg?v=1750276270,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lavender-reverie,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5738_d813aeeb-00cd-448a-b704-998bac490305.jpg?v=1750276270,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shine-on-fearlessly,"Shine On, Fearlessly","<p data-start=""149"" data-end=""262"">Sunflowers for strength,<br data-start=""173"" data-end=""176"">deep blue for wisdom.<br data-start=""197"" data-end=""200"">This bouquet speaks bold beginnings and bright futures. 💙🌻</p>
+<p data-start=""264"" data-end=""320"">For the graduate, the dreamer, the doer.<br data-start=""304"" data-end=""307"">— Sun Florist</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers > Sunflowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,133.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6280.jpg?v=1750275794,1,"",false,,,,,,,,,,,,,,,,,,,bouquet,,yellow; navy,,,,,,,,long,,,,,,,,lb,,,true,,,active
+a-basket-full-of-love,A Basket Full of Love,"<p data-start=""123"" data-end=""226"" class="""">Soft pinks and buttery yellows,<br data-start=""154"" data-end=""157"">tucked into a wooden basket—<br data-start=""185"" data-end=""188"">just like a warm hug from the heart.</p>
+<p data-start=""230"" data-end=""307"" class="""">Happy Mother's Day, to the one who makes everything bloom.<br data-start=""288"" data-end=""291"">— Sun Florist 💐</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Floral Baskets,"Bouquets, bucket",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,142.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6142_41515a49-ba50-41b6-aa45-d32db9c2409b.jpg?v=1746255373,1,"",false,,,2899,,,,,,,,,,,,,,,,basket,,floral; pink,,,,,,,,,,,,,,,,lb,,,true,,,active
+a-basket-full-of-love,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6122_7d644252-31dc-4e55-a2e8-dee3a137d11c.jpg?v=1746255373,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-basket-full-of-love,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6131_649a7dc4-e329-4afb-ab36-f8dcd32db298.jpg?v=1746255373,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-basket-full-of-love,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6134_a8299d79-2dfc-47c1-acdb-7a754dafe056.jpg?v=1746255373,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-basket-full-of-love,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6072_fc4e5b26-9a14-4215-a47e-47819ce56f3e.jpg?v=1746255373,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-blooming-duke,A Blooming Duke,"<p data-start=""127"" data-end=""257"" class="""">Wrapped in blue and white,<br data-start=""153"" data-end=""156"">this bouquet celebrates both growth and grace.<br data-start=""202"" data-end=""205"">Here’s to the next chapter, as radiant as you are.</p>
+<p data-start=""261"" data-end=""277"" class="""">— Sun Florist 🌸</p>
+<p data-start=""261"" data-end=""277"" class=""""><span>Photographer : </span><a class=""x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz notranslate _a6hd"" href=""https://www.instagram.com/warmvisionlab/"" role=""link"" tabindex=""0"">@warmvisionlab (Instagram)</a></p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,133.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250430-Angela-040.jpg?v=1746254677,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,,,,,,,,,lb,,,true,,,active
+a-blooming-duke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250430-Angela-033.jpg?v=1746254677,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-blooming-duke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250430-Angela-042.jpg?v=1746254846,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-blooming-duke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250430-Angela-035.jpg?v=1746254846,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-blooming-duke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250430-Angela-024.jpg?v=1746254677,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-blooming-duke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250430-Angela-030.jpg?v=1746254677,6,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+duke-light,Duke Light,"<p>Grace in stillness,<br data-start=""137"" data-end=""140"">like moonlight on petals—<br data-start=""165"" data-end=""168"">soft, serene, unforgettable.</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Wedding",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,142.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/mmexport1746156895194_reduce.jpg?v=1746254903,1,"",false,,,2899,,,,,,,,,,,,,,,,,,white; blue; floral,,,,,,,,,,,,,,,,lb,,,true,,,active
+duke-light,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ZCH_9539_reduce.jpg?v=1746254903,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+duke-light,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/mmexport1746186353088_reduce.jpg?v=1746254903,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+duke-light,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/mmexport1746156883547_reduce.jpg?v=1746254900,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+duke-light,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ZCH_9894_reduce.jpg?v=1746254900,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+duke-light,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/mmexport1746156891561_reduce.jpg?v=1746254205,6,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+arctic-noir,Arctic Noir,"<p>Cool tones, timeless elegance.<br>A modern bouquet of white roses and icy blues,<br>wrapped in black for a touch of mystery.</p>
+<p>Perfect for the ones who shine in silence. ❄️🌌</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,102.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5524.jpg?v=1744449623,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,white; navy,,,,,,,,,,,,,,,,lb,,,true,,,active
+arctic-noir,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5537.jpg?v=1744449622,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+arctic-noir,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5514.jpg?v=1744449623,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+arctic-noir,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5516.jpg?v=1744449622,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+arctic-noir,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5522.jpg?v=1744449623,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+midnight-muse-illuminated-preserved-flower-dome,Midnight Muse-Illuminated Preserved Flower Dome,"<p>A preserved floral dome where mystery meets elegance.<br data-start=""204"" data-end=""207"">Black rose, amethyst tones, and silver accents—<br data-start=""254"" data-end=""257"">crafted to last, and made to mesmerize. 🖤💜</p>",Sun Florist,Home & Garden > Decor > Artificial Flora > Artificial Flowering Plants,Preserved Floral Creations,gift,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,158.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5013.jpg?v=1744447903,1,"",false,,,6265,,,,,,,,,,,,,,,,,,black; floral,,,,,,rose,,,,,,,,,,lb,,,true,,,active
+midnight-muse-illuminated-preserved-flower-dome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5015.jpg?v=1744447903,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+midnight-muse-illuminated-preserved-flower-dome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5006.jpg?v=1744447904,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+city-stroll-forever-begins,Whispering Green,"<p>A breath of calm, wrapped in white and green.<br data-start=""172"" data-end=""175"">For new beginnings, quiet moments, and gentle hearts. 💚🌼</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,116.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4209.jpg?v=1744447233,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,white; floral,,,,,,,,long,,,,,,,,lb,,,true,,,active
+city-stroll-forever-begins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4196.jpg?v=1744447233,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+city-stroll-forever-begins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4200.jpg?v=1744447233,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sakura-whisper,Sakura Whisper,"<p data-start=""138"" data-end=""229"" class="""">Two hearts, one season.<br data-start=""161"" data-end=""164"">Soft petals, tender thoughts.<br data-start=""193"" data-end=""196"">Spring never looked so gentle. 🌸</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Wedding",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,173.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4790.jpg?v=1744445978,1,"",false,,,2899,,,,,,,,,,,,,,,,,,floral; pink,,,,,,,,,,,,,,,,lb,,,true,,,active
+sakura-whisper,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0482.jpg?v=1744445978,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sakura-whisper,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1740.jpg?v=1744445978,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sakura-whisper,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4740.jpg?v=1744445978,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sakura-whisper,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4755.jpg?v=1744445978,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+heart-on-the-left-love-on-the-right-❤️,"Heart on the Left, Love on the Right ❤️","<p>Heart on the left, love on the right. ❤️<br>This is more than a bouquet—it's a heartbeat made of<strong> 52</strong> red roses.<br>Two blush blooms on the side whisper unspoken affection.</p>
+<p>In this perfect spring light,<br>I’m not just holding flowers—<br>I’m holding everything I feel for you. 💌</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,420.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1841.jpg?v=1744445198,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,,,,,,,,,lb,,,true,,,active
+heart-on-the-left-love-on-the-right-❤️,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5069.jpg?v=1744445199,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+heart-on-the-left-love-on-the-right-❤️,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5143.jpg?v=1744445199,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+heart-on-the-left-love-on-the-right-❤️,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5168.jpg?v=1744445199,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+heart-on-the-left-love-on-the-right-❤️,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5225.jpg?v=1744445199,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+heart-on-the-left-love-on-the-right-❤️,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1838.jpg?v=1744445198,6,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+heart-on-the-left-love-on-the-right-❤️,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1839.jpg?v=1744445198,7,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+from-afar-with-heart,"From Afar, With Heart","<p data-start=""213"" data-end=""437"" class=""""><strong data-start=""213"" data-end=""266"">Timeless moments are made with thoughtful hearts.</strong><br data-start=""266"" data-end=""269"">Send everlasting red roses that stay vibrant through time—no matter the distance.<br data-start=""350"" data-end=""353"">The sun shines brighter today… just like this bouquet, full of love and intention.</p>
+<p data-start=""439"" data-end=""515"" class="""">📬 <strong data-start=""442"" data-end=""470"">Shipping across the U.S.</strong><br data-start=""470"" data-end=""473"">🚗 Delivery &amp; pickup available in DMV &amp; NC</p>",Sun Florist,Home & Garden > Plants > Flowers,Preserved Floral Creations,Preserved flower Bouquet,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,174.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4449.jpg?v=1744443670,1,"",false,,,984,,,,,,,,,,,,,,,,,,,,,,,,rose,,,indoors,,,,,,,lb,,,true,,,active
+from-afar-with-heart,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4463.jpg?v=1744443670,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+from-afar-with-heart,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4406.jpg?v=1744443670,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+from-afar-with-heart,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4444.jpg?v=1744443670,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+🎓-graduation-bouquets,🎓 Graduation Bouquets,"<p>Celebrate new beginnings with our curated Graduation Bouquet Collection, available in four dreamy colors: sunny yellow, sky blue, light green, and soft pink—each symbolizing joy, growth, calm, and love.</p>
+<p>Choose from Small, Medium, or Large sizes to match your moment—whether it's a heartfelt gesture or a grand celebration</p>
+<p>Say congratulations with blooms as bright as their future. 🌟</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Party Supplies > Party Hats,Bouquets,Bouquets,true,Color,yellow,product.metafields.shopify.color-pattern,size,Large,,,,,"",0.0,,deny,manual,133.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1788.jpg?v=1744442900,1,"",false,,,6906,,adult,,,,,,,,,,,,,all-ages,,,yellow; green; pink; blue,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1781.jpg?v=1744442900,lb,,,true,,,active
+🎓-graduation-bouquets,,,,,,,,,yellow,,,Medium,,,,,"",0.0,,deny,manual,112.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1786.jpg?v=1744442900,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1781.jpg?v=1744442900,lb,,,,,,
+🎓-graduation-bouquets,,,,,,,,,yellow,,,Small,,,,,"",0.0,,deny,manual,81.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1781.jpg?v=1744442900,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1781.jpg?v=1744442900,lb,,,,,,
+🎓-graduation-bouquets,,,,,,,,,green,,,Large,,,,,"",0.0,,deny,manual,133.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1783.jpg?v=1744442900,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1785.jpg?v=1744442900,lb,,,,,,
+🎓-graduation-bouquets,,,,,,,,,green,,,Medium,,,,,"",0.0,,deny,manual,112.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1785.jpg?v=1744442900,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1785.jpg?v=1744442900,lb,,,,,,
+🎓-graduation-bouquets,,,,,,,,,green,,,Small,,,,,"",0.0,,deny,manual,81.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1789.jpg?v=1744442900,6,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1785.jpg?v=1744442900,lb,,,,,,
+🎓-graduation-bouquets,,,,,,,,,pink,,,Large,,,,,"",0.0,,deny,manual,133.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1790.jpg?v=1744442900,7,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1782_1276d468-fb39-4c90-8bad-d55da441ed5d.jpg?v=1744443237,lb,,,,,,
+🎓-graduation-bouquets,,,,,,,,,pink,,,Medium,,,,,"",0.0,,deny,manual,112.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1782_1276d468-fb39-4c90-8bad-d55da441ed5d.jpg?v=1744443237,8,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1782_1276d468-fb39-4c90-8bad-d55da441ed5d.jpg?v=1744443237,lb,,,,,,
+🎓-graduation-bouquets,,,,,,,,,pink,,,Small,,,,,"",0.0,,deny,manual,81.00,,true,false,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1782_1276d468-fb39-4c90-8bad-d55da441ed5d.jpg?v=1744443237,lb,,,,,,
+🎓-graduation-bouquets,,,,,,,,,blue,,,Large,,,,,"",0.0,,deny,manual,133.00,,true,false,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1788.jpg?v=1744442900,lb,,,,,,
+🎓-graduation-bouquets,,,,,,,,,blue,,,Medium,,,,,"",0.0,,deny,manual,112.00,,true,false,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1788.jpg?v=1744442900,lb,,,,,,
+🎓-graduation-bouquets,,,,,,,,,blue,,,Small,,,,,"",0.0,,deny,manual,81.00,,true,false,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1788.jpg?v=1744442900,lb,,,,,,
+the-embodiment-of-love-and-happiness,The Embodiment of Love and Happiness,"<p data-start=""122"" data-end=""380"" class="""">Designed for a bride's most unforgettable day, this bouquet features the exquisite <strong data-start=""205"" data-end=""227"">David Austin roses</strong>, known for their sophisticated fragrance and romantic form. Their ivory petals gently blush with a hint of pink—like a quiet heartbeat at first sight.</p>
+<p data-start=""382"" data-end=""522"" class="""">Peeking through the delicate blooms, the <strong data-start=""423"" data-end=""435"">clematis</strong> adds a playful touch, symbolizing the joyful anticipation of love’s new chapter. 🕊️</p>
+<p data-start=""524"" data-end=""707"" class=""""><strong data-start=""524"" data-end=""540"">Perfect for:</strong> Bridal bouquets, engagement shoots, or intimate ceremonies<br data-start=""599"" data-end=""602""><strong data-start=""602"" data-end=""624"">Floral Highlights:</strong> David Austin roses, clematis, soft seasonal accents with a fresh, romantic scent</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Wedding",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,164.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ZCE_1727_REDUCE.jpg?v=1744442016,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,,,,,,,,,lb,,,true,,,active
+the-embodiment-of-love-and-happiness,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ZCE_8897_cut.jpg?v=1744441542,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the-embodiment-of-love-and-happiness,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ZCE_0194_cut.jpg?v=1744441542,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the-embodiment-of-love-and-happiness,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ZCE_1004_reduce.jpg?v=1744442329,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the-embodiment-of-love-and-happiness,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ZCE_9598_reduce.jpg?v=1744442442,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+the-embodiment-of-love-and-happiness,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/ZCE_0632_cut_reduce.jpg?v=1744442492,6,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+moab21-23-stems,Moab(21-23 stems),"<p>This elegant bouquet features <strong data-start=""88"" data-end=""114"">Moab roses</strong> in rich, warm hues of blush, nude, and dusty pink. Paired with vintage-style wrapping and a soft mauve ribbon, it carries a nostalgic charm that’s both timeless and effortlessly romantic.</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",453.59237,,deny,manual,158.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4523.jpg?v=1742853211,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,long,,,,,,,,lb,,68.00,true,,,active
+moab21-23-stems,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4533.jpg?v=1742853211,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+moab21-23-stems,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4579.jpg?v=1742853211,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+moab21-23-stems,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4583.jpg?v=1742853211,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+moab21-23-stems,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0859.jpg?v=1742853211,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+moab21-23-stems,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4498.jpg?v=1742853211,6,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+spring-whispers,Spring Whispers,"<p>Soft as a breeze and delicate as a dream, this bouquet features layers of blush pink ranunculus, tulips, and Sweet Pea wrapped in lace and sheer fabric for a romantic, vintage feel.</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,146.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4364.jpg?v=1742846540,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,medium,,,,,,,,lb,,51.00,true,,,active
+spring-whispers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4308.jpg?v=1742846540,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+spring-whispers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4318.jpg?v=1742846540,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+flamenco,Flamenco,"<p>This charming bouquet captures the soft glow of a golden evening with its ivory gerbera daisies, creamy carnations, and delicate greens. <br>Perfect for brightening someone’s day.</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Graduation",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,98.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0450.jpg?v=1742836919,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,white; floral,,,,,,,,,,,,,,,,lb,,25.00,true,,,active
+flamenco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4412.jpg?v=1742836919,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+flamenco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4432.jpg?v=1742836919,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+timeless-elegance-preserved-floral-boutonniere-set,Preserved Floral Boutonnière Set,"<p>This sophisticated boutonnière set features preserved roses, delicate hydrangeas, and golden accents, exuding classic elegance with a modern touch. Each piece is meticulously handcrafted, making it perfect for weddings, formal events, and special celebrations. Presented in a sleek black gift box with satin ribbons, this set is a symbol of refined craftsmanship.<br><strong>Corsage: $29</strong><br><strong>Corsages(wrist ): $39</strong><b><span><br></span></b><strong>Set: $60</strong></p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Preserved Floral Creations,"gift, Preserved flower Bouquet",true,Color,White&Black,,,,,,,,"",0.0,,deny,manual,60.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3616.png?v=1740208671,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3618.png?v=1740208672,lb,,,true,,,active
+timeless-elegance-preserved-floral-boutonniere-set,,,,,,,,,Blue,,,,,,,,"",0.0,,deny,manual,60.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3615.png?v=1740208671,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250222022123.jpg?v=1740208919,lb,,,,,,
+timeless-elegance-preserved-floral-boutonniere-set,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3618.png?v=1740208672,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+timeless-elegance-preserved-floral-boutonniere-set,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3607.png?v=1740208671,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+timeless-elegance-preserved-floral-boutonniere-set,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/20250222022123.jpg?v=1740208919,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pink-blossom-preserved-flower-dome,Pink Blossom - Preserved Flower Dome,"<p>Delicate and enchanting, this preserved flower dome features soft pink roses, blush hydrangeas, and pearl-like accents, beautifully arranged beneath a crystal-clear glass dome. </p>",Sun Florist,Home & Garden > Decor > Dried Flowers,Preserved Floral Creations,"gift, Preserved flower Bouquet",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,138.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/C1FC6566-FB0B-40AD-99F8-CF7213DC9E96.jpg?v=1740208264,1,"",false,,,6936,,,,,,,,,,,,,,,,,,floral,,,,,,,,,,,,,,,,lb,,,true,,,active
+pink-blossom-preserved-flower-dome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/B1E2B112-6F2D-487F-B91A-C5ED9F464637.jpg?v=1740208265,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+autumn-charm-illuminated-preserved-flower-dome,Autumn Charm - Illuminated Preserved Flower Dome,"<p>Capture the warmth of fall with this enchanting <strong data-start=""102"" data-end=""127"">preserved flower dome</strong>, featuring delicate peach and blush roses, soft hydrangeas, and natural foliage. Enhanced with pinecones, cinnamon sticks, and golden accents, this arrangement evokes cozy autumn days. Encased in a clear glass dome with a rustic wooden base and finished with a deep red ribbon, it's a perfect seasonal décor piece or thoughtful gift.</p>",Sun Florist,Home & Garden > Decor > Dried Flowers,Preserved Floral Creations,"gift, Preserved flower Bouquet",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,158.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0528.jpg?v=1740207798,1,"",false,,,6936,,,,,,,,,,,,,,,,,,floral,,,,,,,,,,,,,,,,lb,,,true,,,active
+autumn-charm-illuminated-preserved-flower-dome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0535_1.jpg?v=1740207791,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+autumn-charm-illuminated-preserved-flower-dome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0488.jpg?v=1740207790,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eternal-blossom-illuminated-preserved-flower-dome,Eternal Blossom -  Illuminated Preserved Flower Dome,"<p data-start=""55"" data-end=""358"">A timeless display of elegance, this <strong data-start=""92"" data-end=""117"">preserved flower dome</strong> showcases delicate ivory and blush Peony, soft hydrangeas, and pearl-white rose, carefully arranged under a crystal-clear glass dome. The built-in soft LED light creates a warm, ambient glow, enhancing the charm of every petal. Paired with a sleek gift box, it's the perfect symbol of everlasting beauty.</p>",Sun Florist,Home & Garden > Decor > Artwork,Preserved Floral Creations,"gift, Preserved flower Bouquet",true,Title,Default Title,,,,,,,,"",453.59237,,deny,manual,158.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3836.png?v=1740207062,1,"",false,,,9,,,,,,,,,,,,,,,,,,floral,,,,,,,,,,,,,,,,lb,,,true,,,active
+eternal-blossom-illuminated-preserved-flower-dome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3843.png?v=1740207061,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eternal-blossom-illuminated-preserved-flower-dome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_9682.png?v=1740207062,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+eternal-blossom-illuminated-preserved-flower-dome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_9687.png?v=1740207062,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+blushing-charm-bridal-hand-bouquet,Blushing Charm - Bridal Hand Bouquet,"<p data-start=""53"" data-end=""296"">This romantic bouquet features <strong data-start=""84"" data-end=""151"">lush pink carnations, delicate white blooms, and fresh greenery</strong>, creating a soft yet vibrant arrangement. Accented with flowing blush ribbons, it's designed to capture hearts and enhance any special moment.</p>
+<p data-start=""298"" data-end=""316"">🌿 <strong data-start=""301"" data-end=""314"">Features:</strong></p>
+<ul data-start=""317"" data-end=""484"">
+<li data-start=""317"" data-end=""367"">Soft pink carnations for a touch of romance 🌸</li>
+<li data-start=""368"" data-end=""432"">Crisp white flowers and fresh greens for natural elegance 🍃</li>
+<li data-start=""433"" data-end=""484"">Satin ribbons for a graceful, flowing finish 🎀</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,120.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/3D9D82ED-16B2-4FED-A545-6A5121E4F2EB.jpg?v=1740206471,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,medium,,,,,,,,lb,,,true,,,active
+blushing-charm-bridal-hand-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/DF396F7F-0E57-4FE6-B019-EDE580664ED0.jpg?v=1740206472,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+french-inspired-bouquet,French-Inspired Bouquet,"",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Wedding",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,138.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/2DB2409F-1562-4D3E-9ECF-AE099FB75B02.jpg?v=1740206186,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,white; green,,,,,,,,medium,,,,,,,,lb,,,true,,,active
+french-inspired-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/AA90E405-2046-4250-83A1-8FC4B6372EFC.jpg?v=1740206186,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+french-inspired-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/AF1C2225-12A2-4751-93A3-281158AC9E8E.jpg?v=1740206186,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+menta-bridal-bouquet-pair,Menta bridal bouquet (pair),"<p>1. Bridal bouquet $138</p>
+<p>2. Corsage $48</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Wedding",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,186.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/e5af0ec7c438a8efb264709533ae913f.jpg?v=1744447104,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,,,,,,,,,lb,,,true,,,active
+menta-bridal-bouquet-pair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/c8c1c226692f7cd7cd02e1935df4eabd.jpg?v=1744447104,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+menta-bridal-bouquet-pair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3582.png?v=1744447104,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+menta-bridal-bouquet-pair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/DC__5_SunFlorist_1e495d03-eaee-447f-babe-81d5d67532fd.jpg?v=1744447101,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shakespeare,Shakespeare,"",Sun Florist,Arts & Entertainment > Hobbies & Creative Arts > Musical Instruments > String Instruments,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,128.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/D61A36B4-DE67-40BD-8CC7-CBB990A1CF97.jpg?v=1740205284,1,"",false,,,77,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,true,,,active
+shakespeare,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5957.jpg?v=1740205284,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+shakespeare,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5958.jpg?v=1740205284,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ocean-song,Ocean Song,"",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,109.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3857.png?v=1740204660,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,purple,,,,,,,,medium,,,,,,,,lb,,30.00,true,,,active
+ocean-song,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3849.png?v=1740204660,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ocean-song,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_9700.png?v=1740204660,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ocean-song,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3852.png?v=1740204660,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ocean-song,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3856.png?v=1740204660,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+classical-rose,Classical Rose,<p>16-18 stems </p>,Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,116.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3887.png?v=1740204250,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,long,,,,,,,,lb,,,true,,,active
+classical-rose,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_9764.png?v=1740204252,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+classical-rose,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3891.png?v=1740204250,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+classical-rose,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_9761.png?v=1740204250,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ins-pink,Ins Pink,"<p>A breathtaking arrangement of soft pink roses, delicate anthuriums, and elegant foliage, this bouquet radiates romance and sophistication. Wrapped in a luxurious blend of textured pink and deep black, it’s a statement of timeless beauty.</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,168.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2037.png?v=1739826032,1,"",false,,,2899,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,true,,,active
+ins-pink,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2043.png?v=1739826033,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ins-pink,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2051.png?v=1739826032,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ins-pink,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2023.png?v=1739826032,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ins-pink,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2031.png?v=1739826032,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+misty-forest,Misty Forest,"<p>A mesmerizing blend of <strong data-start=""84"" data-end=""158"">black, gray, and ivory roses, delicate white florals, and lush foliage</strong>, this bouquet evokes the mystery and allure of a misty forest. Wrapped in <strong data-start=""233"" data-end=""261"">elegant monochrome paper</strong> with intricate detailing, it’s a bold statement of sophistication and depth.</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,152.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2760_dc49ab08-7109-41f3-b0fc-ce7fbb64bfea.png?v=1739825715,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral; black,,,,,,,,medium,,,,,,,,lb,,,true,,,active
+misty-forest,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2736_c784c5e2-a210-4d0a-b75a-51d03b051c74.png?v=1739825715,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+misty-forest,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2756_ce926f09-a16e-428e-88f5-8129e7e5dd8c.png?v=1739825715,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pure-serenity,Pure Serenity,"",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,"",Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,152.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2200.png?v=1739825157,1,"",false,,,2899,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,true,,,active
+pure-serenity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2302.png?v=1739825157,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pure-serenity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2591.png?v=1739825157,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pure-serenity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2243.png?v=1739825157,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-sunrise-in-bloom,A Sunrise in Bloom,"<p><span>This white-pink bouquet is like a gentle sunset casting its glow over soft coral. A perfect way to bring fresh and elegance into your space. 🧡✨</span><br></p>
+<p> </p>
+<p><strong>Please order at least 7 days in advance for fresh flowers</strong></p>
+<p class=""whitespace-pre-wrap break-words"">PRODUCT HIGHLIGHTS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Premium Fresh Austin Juliet Roses</li>
+<li>Premium Fresh Austin Aiko Roses<br>
+</li>
+<li>Premium Fresh White Roses<br>
+</li>
+<li>Premium Fresh White Lisianthus</li>
+<li class=""whitespace-normal break-words"">Signature Designer Packaging</li>
+<li class=""whitespace-normal break-words"">Professional Florist Hand-Tied<br>
+</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">SPECIFICATIONS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Height: Approximately 20 inches</li>
+<li class=""whitespace-normal break-words"">Width: Approximately 18 inches</li>
+<li class=""whitespace-normal break-words"">depth: Approximately 10 inches</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">CARE TIPS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Change water daily</li>
+<li class=""whitespace-normal break-words"">Trim stems at an angle</li>
+<li class=""whitespace-normal break-words"">Keep away from direct sunlight</li>
+<li class=""whitespace-normal break-words"">Maintain room temperature<br>
+</li>
+<li class=""whitespace-normal break-words"">Expected vase life: 2-3 days with proper care and temperature</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"">Instagram</li>
+<li class=""whitespace-normal break-words"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,"",Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,152.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2273.png?v=1739823002,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,white; floral,,,,,,,,medium,,,,,,,,lb,,,true,,,active
+a-sunrise-in-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_7710.jpg?v=1739823001,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-sunrise-in-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2280.png?v=1739823002,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-sunrise-in-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2284.png?v=1739823002,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+timeless-grace,Timeless Grace,"<p>A stunning arrangement of <strong data-start=""79"" data-end=""127"">white roses, lisianthus, and delicate blooms</strong>, this bouquet embodies <strong data-start=""151"" data-end=""185"">purity, elegance, and serenity</strong>. Wrapped in sophisticated black and olive green paper, it’s a refined choice for any occasion.</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,"",Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,118.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2114.png?v=1739822679,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,white,,,,,,,,,,,,,,,,lb,,,true,,,active
+timeless-grace,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2094.png?v=1739822679,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+timeless-grace,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2107.png?v=1739822679,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+timeless-grace,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2073.png?v=1739822679,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+timeless-grace,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2067.png?v=1739822679,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+timeless-grace,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2119.png?v=1739822679,6,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+timeless-grace,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2069.png?v=1739822692,7,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dye-tulips_for-him-her,Navy Blue Tulips,"<p>A breathtaking blend of blue and white tulips, this bouquet embodies elegance and serenity. Wrapped in luxurious navy and white packaging, it’s the perfect gift to express appreciation, love, or simply brighten someone’s day.</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,"",Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,75.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3701.png?v=1739819549,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,blue,,,,,,,,,,,,,,,,lb,,,true,,,active
+dye-tulips_for-him-her,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3708.png?v=1739819548,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dye-tulips_for-him-her,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3725.png?v=1739819549,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dye-tulips_for-him-her,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3741.png?v=1739819549,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+preserved-dandelion-hermes-orange,Preserved Dandelion (Hermes Orange),"<p>PRODUCT HIGHLIGHTS:</p>
+<p>Premium Preserve Dandelion</p>
+<p><span>🚚Supporting USA wide shipping. </span></p>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"">Instagram</li>
+<li class=""whitespace-normal break-words"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Home & Garden > Decor > Dried Flowers,"","gift, Preserved flower Bouquet",true,Title,Default Title,,,,,,,,"",907.18474,,deny,manual,142.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3682.png?v=1739243116,1,"",false,,"This beautifully handcrafted preserved flower arrangement captures the essence of nature’s fleeting beauty in a timeless display. Encased in a sleek acrylic box, delicate dandelions, vibrant hydrangeas, and golden accents create a sophisticated, long-lasting piece.",6936,,,,,,,,,,,,,,,,,,orange,,,,,,,,,,,,,,,,lb,,,true,,,active
+preserved-dandelion-hermes-orange,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3690.png?v=1739243115,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+preserved-dandelion-hermes-orange,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3693.png?v=1739243116,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+red-bridal-bouquet,Freedom & Cappuccino Bridal Bouquet,"",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Valentine",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,158.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3411.png?v=1738055647,1,"",false,,,2899,,,,,,,,,,,,,,,,,,red; pink,,,,,,,,,,,,,,,,lb,,,true,,,active
+red-bridal-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_9289.png?v=1738055645,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+red-bridal-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3379.png?v=1738055645,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+rose-menta,Menta Rose Bouquet,"",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,"","Bouquets, Valentine",true,Title,Default Title,,,,,,,,"",2267.96185,,deny,manual,119.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_9291.png?v=1738055645,1,"",false,,,2899,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,true,,,active
+rose-menta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_9292.png?v=1738055643,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-wish-in-bloom,A Wish in Bloom,"",Sun Florist,Arts & Entertainment > Party & Celebration > Party Supplies > Birthday Candles,Bouquets,"Bouquets, bucket, Valentine",true,Title,Default Title,,,,,,,,"",4535.9237,,deny,manual,138.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_9290.png?v=1738055641,1,"",false,,,4730,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,true,,,active
+blooming-bubbles,Blooming Bubbles,"",Sun Florist,Home & Garden > Decor,Bouquets,"Bouquets, Valentine",true,Title,Default Title,,,,,,,,"",2721.55422,,deny,manual,79.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3447.png?v=1738055648,1,"",false,,,696,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,true,,,active
+celebration-in-bloom,Sweet Embrace,<p>Wine not included</p>,Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Valentine",true,Title,Default Title,,,,,,,,"",2267.96185,,deny,manual,88.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3319.png?v=1738055645,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,,,,,,,,,lb,,,true,,,active
+lover-s-symphony,Lover’s Symphony,"",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, bucket, Valentine",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,158.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3216.png?v=1738055648,1,"",false,,,2899,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,true,,,active
+lover-s-symphony,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3207.png?v=1738055646,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+manta-paradise,Menta Paradise,"",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Valentine",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,198.00,,false,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3121.png?v=1738055648,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,menta,,,,,,,,medium,,,,,,,,lb,,,true,,,active
+52-lychee-pink-garden-roses,Pink Lychee Roses( 24/36/52 stems),"<p>Garden Rose, Pink O'Hara - Baby Pink, Very Fragrant</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Valentine",true,stems,36,,,,,,,,"",8164.66266,,deny,manual,380.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3066.png?v=1738055648,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,pink,,,,,,,,large; long,,,,,,,,lb,,,true,,,active
+52-lychee-pink-garden-roses,,,,,,,,,52,,,,,,,,"",8164.66266,,deny,manual,528.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3043.png?v=1738055647,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,,,,
+99-roses,Freedom  Roses,"<p>99 Roses</p>
+<p>52 Roses</p>
+<p>36 Roses</p>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Valentine",true,stems,99,,,,,,,,"",6803.88555,,deny,manual,760.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3023.png?v=1738055644,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,red,,,,,,,,large,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3023.png?v=1738055644,lb,,,true,,,active
+99-roses,,,,,,,,,52,,,,,,,,"",6803.88555,,deny,manual,390.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3133.png?v=1738055645,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,,,,
+99-roses,,,,,,,,,36,,,,,,,,"",6803.88555,,deny,manual,260.00,,true,false,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,,,,
+green-white,GREEN & WHITE,"<p><span>White blooms symbolize purity and new beginnings, while lush greenery adds a touch of freshness and vitality. Together, they create a stunning aesthetic that complements any theme, from friendship, graduation to wedding. From traditional to modern styles, this versatile palette pairs beautifully with various decor styles!</span><span></span></p>
+<p><strong>Please order at least 7 days in advance for fresh flowers</strong></p>
+<p class=""whitespace-pre-wrap break-words"">PRODUCT HIGHLIGHTS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Premium Fresh Playa Blanca Roses</li>
+<li class=""whitespace-normal break-words"">11-12 Roses per Bouquet</li>
+<li class=""whitespace-normal break-words""><span>Premium Fresh Ranunculus</span></li>
+<li class=""whitespace-normal break-words"">Signature Designer Packaging</li>
+<li class=""whitespace-normal break-words"">Professional Florist Hand-Tied<br>
+</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">SPECIFICATIONS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Height: Approximately 20 inches</li>
+<li class=""whitespace-normal break-words"">Width: Approximately 14 inches</li>
+<li class=""whitespace-normal break-words"">depth: Approximately 7 inches</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">CARE TIPS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Change water daily</li>
+<li class=""whitespace-normal break-words"">Trim stems at an angle</li>
+<li class=""whitespace-normal break-words"">Keep away from direct sunlight</li>
+<li class=""whitespace-normal break-words"">Maintain room temperature<br>
+</li>
+<li class=""whitespace-normal break-words"">Expected vase life: 2-3 days with proper care and temperature</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"">Instagram</li>
+<li class=""whitespace-normal break-words"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,128.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/1.jpg?v=1735862643,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,medium,,,,,,,,lb,,40.00,true,,,active
+green-white,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/2_1fad8923-7ff4-4930-8e07-79949e4b560d.jpg?v=1735862643,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+green-white,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/3_d5d207f0-353f-4203-95e7-d8d35ae41186.jpg?v=1735862643,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+carolina-blue,Carolina Blue,"<p><span>Inspired by the serene hues of North Carolina skies, this bouquet blends elegance and tranquility.</span><br></p>
+<p><strong>Please order at least 7 days in advance for fresh flowers</strong></p>
+<p class=""whitespace-pre-wrap break-words"">PRODUCT HIGHLIGHTS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Premium Fresh Playa Blanca Roses<br>
+</li>
+<li class=""whitespace-normal break-words"">Signature Designer Packaging</li>
+<li class=""whitespace-normal break-words"">Professional Florist Hand-Tied<br>
+</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">SPECIFICATIONS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Height: Approximately 20 inches</li>
+<li class=""whitespace-normal break-words"">Width: Approximately 14 inches</li>
+<li class=""whitespace-normal break-words"">depth: Approximately 7 inches</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">CARE TIPS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Change water daily</li>
+<li class=""whitespace-normal break-words"">Trim stems at an angle</li>
+<li class=""whitespace-normal break-words"">Keep away from direct sunlight</li>
+<li class=""whitespace-normal break-words"">Maintain room temperature<br>
+</li>
+<li class=""whitespace-normal break-words"">Expected vase life: 2-3 days with proper care and temperature</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"">Instagram</li>
+<li class=""whitespace-normal break-words"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,148.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2170.png?v=1735861889,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,blue; floral,,,,,,,,medium,,,,,,,,lb,,60.00,true,,,active
+carolina-blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2171.png?v=1735861888,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+carolina-blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2173.png?v=1735861891,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+carolina-blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2180.png?v=1735861888,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pearl,Pearl,"<p><span>Hand bouquets aren’t limited to weddings—they’re perfect for any unique and precious occasion💐.</span><br><br><span>Without extra packaging or decoration, their beauty lies in their simplicity, like a precious pearl—elegant and timeless✨.</span></p>
+<p> </p>
+<p><strong>Please order at least 7 days in advance for fresh flowers</strong></p>
+<p class=""whitespace-pre-wrap break-words"">PRODUCT HIGHLIGHTS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Premium Preserve Roses</li>
+<li class=""whitespace-normal break-words"">Premium Preserve Peony</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">CARE TIPS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Keep away from direct sunlight</li>
+<li class=""whitespace-normal break-words"">Maintain room temperature<br>
+</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"">Instagram</li>
+<li class=""whitespace-normal break-words"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Home & Garden > Decor > Dried Flowers,Preserved Floral Creations,"Preserved flower Bouquet, Wedding",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,216.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1824.png?v=1735860170,1,"",false,,,6936,,,,,,,,,,,,,,,,,,white; floral; beige,,,,,,,,,,,,,,,,lb,,50.00,true,,,active
+pearl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_7465.jpg?v=1735860170,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pearl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1857.png?v=1735860170,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pearl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1872.png?v=1735860170,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pearl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1919.png?v=1735860170,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pearl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1924.png?v=1735860170,6,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pearl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1926.png?v=1735860170,7,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pearl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1952.png?v=1735860170,8,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-sunset-in-bloom,A Sunset in Bloom,"<p><span>This orange-pink bouquet is like a gentle sunset casting its glow over soft coral. A perfect way to bring warmth and elegance into your space. 🧡✨</span><br></p>
+<p> </p>
+<p><strong>Please order at least 7 days in advance for fresh flowers</strong></p>
+<p class=""whitespace-pre-wrap break-words"">PRODUCT HIGHLIGHTS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Premium Fresh Austin Juliet Roses</li>
+<li>Premium Fresh Austin Aiko Roses<br>
+</li>
+<li>Premium Fresh White Roses</li>
+<li>Premium Fresh Stocks</li>
+<li>Premium Fresh Lisianthus</li>
+<li class=""whitespace-normal break-words"">Signature Designer Packaging</li>
+<li class=""whitespace-normal break-words"">Professional Florist Hand-Tied<br>
+</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">SPECIFICATIONS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Height: Approximately 20 inches</li>
+<li class=""whitespace-normal break-words"">Width: Approximately 18 inches</li>
+<li class=""whitespace-normal break-words"">depth: Approximately 10 inches</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">CARE TIPS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Change water daily</li>
+<li class=""whitespace-normal break-words"">Trim stems at an angle</li>
+<li class=""whitespace-normal break-words"">Keep away from direct sunlight</li>
+<li class=""whitespace-normal break-words"">Maintain room temperature<br>
+</li>
+<li class=""whitespace-normal break-words"">Expected vase life: 2-3 days with proper care and temperature</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"">Instagram</li>
+<li class=""whitespace-normal break-words"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li class=""whitespace-normal break-words"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,186.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2129.png?v=1735857907,1,"",false,,"This orange-pink bouquet is like a gentle sunset casting its glow over soft coral. Austin Juliet Roses,  Austin Aiko Roses",2899,,,,,,,,,,,,,,,,bouquet,,floral,,,,,,,,large,,,,,,,,lb,,60.00,true,,,active
+a-sunset-in-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2151.png?v=1735857906,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-sunset-in-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_8144.png?v=1735857907,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-sunset-in-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2238.png?v=1735857907,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a-sunset-in-bloom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_2164.png?v=1735857907,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+latte-inspired-bouquet,Latte-Inspired Bouquet,"<p>PRODUCT HIGHLIGHTS:</p>
+<ul>
+<li class=""whitespace-normal break-words"" index=""0"">100% Handcrafted with Premium Materials</li>
+<li class=""whitespace-normal break-words"" index=""1"">Large Statement Bouquet (15""W x 22""H x 8""D)</li>
+<li class=""whitespace-normal break-words"" index=""2"">Made with Natural Preserved Flowers Only</li>
+<li class=""whitespace-normal break-words"" style=""font-weight: bold;"" index=""3""><strong>Next-Day Shipping (Orders made within 24 hours)</strong></li>
+</ul>
+<p>BOUQUET DETAILS:</p>
+<p class=""whitespace-pre-wrap break-words"">Experience the timeless elegance of our winter-inspired preserved flower bouquet. Each arrangement features:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Latte color preserved roses</li>
+<li class=""whitespace-normal break-words"" index=""1"">Latte preserved hydrangeas</li>
+<li class=""whitespace-normal break-words"" index=""1"">Natural cotton flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Preserved pampas grass accents</li>
+</ul>
+<p><span>🚚Supporting USA wide shipping. </span></p>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""0""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""1""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Preserved flower Bouquet,true,Title,Default Title,,,,,,,,,907.18474,,deny,manual,136.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_9924.jpg?v=1734150273,1,"",false,,Latte-Inspired Bouquet with mauve rose & cotton flowers. Long-lasting beauty meets retro style. Supporting USA wide shipping.,2899,,,,,,,,,,,,,,,,bouquet,,bronze; brown,,,,,,,,,,,,,,,,lb,,40.00,true,,,active
+latte-inspired-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0016.jpg?v=1734150273,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+latte-inspired-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0026.jpg?v=1734150273,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+latte-inspired-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0021.jpg?v=1734150267,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+modern-white-preserved-table-centerpiece,Modern White Preserved Centerpiece,"<p class=""whitespace-pre-wrap break-words"">Elevate your space with this exquisitely crafted preserved flower arrangement. This sophisticated tabletop piece features a thoughtful combination of premium preserved flowers:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""5"">Premium preserved white rose<br>
+</li>
+<li class=""whitespace-normal break-words"" index=""5"">Natural cotton flowers<br>
+</li>
+<li class=""whitespace-normal break-words"" index=""5"">Textural brown dried foliage<br>
+</li>
+<li class=""whitespace-normal break-words"" index=""5"">Cream preserved hydrangea<br>
+</li>
+<li class=""whitespace-normal break-words"" index=""5"">Modern silver square ceramic vase</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">All florals are specially treated to ensure long-lasting beauty. The silver ceramic vase paired with natural textures creates a modern elegance, perfect for contemporary homes, office spaces, mantelpieces, or wedding gift displays.</p>
+<p class=""whitespace-pre-wrap break-words"">Specifications:</p>
+<p class=""whitespace-pre-wrap break-words"">Square silver vessel: 4 x 4 x 4 inch<br>overall size: 10(width) x 13(height) x 8(depth) inch</p>
+<p class=""whitespace-pre-wrap break-words"">Care Instructions:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Keep away from direct sunlight</li>
+<li class=""whitespace-normal break-words"" index=""1"">Avoid water exposure</li>
+<li class=""whitespace-normal break-words"" index=""2"">Dust gently with cool air from hair dryer when needed</li>
+<li class=""whitespace-normal break-words"" index=""3"">Designed for indoor display</li>
+</ul>
+<p><span>🚚Supporting USA wide shipping. </span></p>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2"" data-mce-style=""color: rgb(12, 132, 43);"">
+<span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""0"" data-mce-style=""color: rgb(12, 132, 43);""><span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""1"" data-mce-style=""color: rgb(12, 132, 43);""><span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2"" data-mce-style=""color: rgb(12, 132, 43);""><span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Home & Garden > Plants > Flowers,Table Centerpiece,"Centerpiece, Christmas",true,Title,Default Title,,,,,,,,,0.0,,deny,manual,150.00,200.00,true,false,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1239.png?v=1733562554,1,"",false,,"Luxury preserved flower arrangement featuring pristine white rose, cotton flowers & dried botanicals in modern ceramic vase. Designer home decor with 1-2 year lifespan. Free local delivery",984,,,,,,,,,,,,,,,,,,white; bronze; beige,,,,flowering,,,,,indoors,,,,,,,lb,,50.00,true,,,active
+modern-white-preserved-table-centerpiece,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6429.png?v=1733562554,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+modern-white-preserved-table-centerpiece,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1219.png?v=1733562554,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+modern-white-preserved-table-centerpiece,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_6641.png?v=1733562553,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+preserved-rose-christmas-ornaments-limited-edition-set,Preserved Rose Christmas Ornaments - Limited Edition Set,"<p><span>✨ Preserved Rose Christmas Ornaments - Limited Edition Set ✨🎄</span><br><br><span>This holiday season, add elegance and magic to your Christmas tree! Our preserved rose ornaments come in three stunning themes:</span><br><br><span>🌟 <strong>Gold &amp; Silver</strong>: Classic metallic tones for a luxurious touch.</span><br><br><span>🎄<strong>Christmas Wreath Charm</strong>: Mini wreaths filled with festive cheer.</span><br><br><span>☃️ <strong>Gingerbread Delight</strong>: A whimsical design featuring a gingerbread twist.</span><br><br><span>🎁 <strong>Special Offer: Purchase the full set now at a discounted price!</strong></span></p>
+<p>Only One Size: 3.25 x 3.25 x 3.25 (inch)<br>- 99% materials are nature preserved flower.<br>- Artificial: Gingerbread man</p>
+<p><br><span>Give your Christmas tree a dazzling and sophisticated makeover. Perfect for gifting or creating unforgettable holiday memories.</span><br><br><span>🚚Supporting US wide shipping.</span><br><span>✨ Order today and let the magic begin ! ✨</span></p>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""0""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""1""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Hobbies & Creative Arts > Arts & Crafts > Art & Crafting Tools > Craft Decoration Makers,Preserved Floral Creations,"Christmas, gift",true,Color,Silver & Gold,,,,,,,,"",907.18474,,deny,manual,49.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1521.png?v=1733561393,1,"",false,,,505386,,,,,,,,,,,,,,,,,plastic,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1432.png?v=1733561393,lb,,15.00,true,,,active
+preserved-rose-christmas-ornaments-limited-edition-set,,,,,,,,,Gingerbread Charm,,,,,,,,"",907.18474,,deny,manual,49.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1395_edit_photoshop.png?v=1733561497,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1419.png?v=1733561393,lb,,15.00,,,,
+preserved-rose-christmas-ornaments-limited-edition-set,,,,,,,,,Classic Noel,,,,,,,,"",907.18474,,deny,manual,49.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1422.png?v=1733561393,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1422.png?v=1733561393,lb,,15.00,,,,
+preserved-rose-christmas-ornaments-limited-edition-set,,,,,,,,,Set(All Color),,,,,,,,"",907.18474,,deny,manual,130.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1432.png?v=1733561393,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1395_edit_photoshop.png?v=1733561497,lb,,15.00,,,,
+preserved-rose-christmas-ornaments-limited-edition-set,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1419.png?v=1733561393,5,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+preserved-rose-christmas-ornaments-limited-edition-set,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1435.png?v=1733561393,6,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+preserved-rose-christmas-ornaments-limited-edition-set,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1518.png?v=1733561393,7,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+premium-hand-tied-white-roses-with-silver-mesh,Premium White Roses with Silver Mesh,"<p> Christmas Rose Fresh Flower Bouquet </p>
+<p><strong>Please order at least 7 days in advance for fresh flowers products</strong></p>
+<p class=""whitespace-pre-wrap break-words"">PRODUCT HIGHLIGHTS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Premium Fresh Playa Blanca Roses</li>
+<li class=""whitespace-normal break-words"" index=""1"">7 Roses per Bouquet</li>
+<li class=""whitespace-normal break-words"" index=""2"">Signature Designer Packaging</li>
+<li class=""whitespace-normal break-words"" index=""3"">Professional Florist Hand-Tied<br>
+</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">SPECIFICATIONS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Height: Approximately 20 inches</li>
+<li class=""whitespace-normal break-words"" index=""1"">Width: Approximately 15 inches</li>
+<li class=""whitespace-normal break-words"" index=""1"">depth: Approximately 7 inches</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">CARE TIPS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Change water daily</li>
+<li class=""whitespace-normal break-words"" index=""1"">Trim stems at an angle</li>
+<li class=""whitespace-normal break-words"" index=""2"">Keep away from direct sunlight</li>
+<li class=""whitespace-normal break-words"" index=""3"">Maintain room temperature<br>
+</li>
+<li class=""whitespace-normal break-words"" index=""5"">Expected vase life: 2-3 days with proper care and temperature</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2"" data-mce-style=""color: rgb(12, 132, 43);"">
+<span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""0"" data-mce-style=""color: rgb(12, 132, 43);""><span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""1"" data-mce-style=""color: rgb(12, 132, 43);""><span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2"" data-mce-style=""color: rgb(12, 132, 43);""><span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Christmas",true,Title,Default Title,,,,,,,,,1360.77711,,deny,manual,88.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1271.png?v=1733560610,1,"",false,,"Elegant fresh white rose bouquet with premium silver mesh wrapping. 7 hand-selected roses, professionally arranged. Perfect for special occasions",2899,,,,,,,,,,,,,,,,bouquet,,white,,,,,,,,medium,,,,,,,,lb,,15.00,true,,,active
+premium-hand-tied-white-roses-with-silver-mesh,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1257.png?v=1733560609,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+premium-hand-tied-white-roses-with-silver-mesh,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1277.png?v=1733560610,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+premium-hand-tied-white-roses-with-silver-mesh,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1291.png?v=1733560610,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+christmas-rose,Christmas Rose Fresh Flower Bouquet,"<p> Christmas Rose Fresh Flower Bouquet </p>
+<p><strong>Please order at least 7 days in advance for fresh flowers</strong></p>
+<p class=""whitespace-pre-wrap break-words"">PRODUCT HIGHLIGHTS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Premium Fresh Freedom Roses</li>
+<li class=""whitespace-normal break-words"" index=""1"">11-12 Roses per Bouquet</li>
+<li class=""whitespace-normal break-words"" index=""2"">Signature Designer Packaging</li>
+<li class=""whitespace-normal break-words"" index=""3"">Professional Florist Hand-Tied<br>
+</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">SPECIFICATIONS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Height: Approximately 20 inches</li>
+<li class=""whitespace-normal break-words"" index=""1"">Width: Approximately 15 inches</li>
+<li class=""whitespace-normal break-words"" index=""1"">depth: Approximately 7 inches </li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">CARE TIPS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Change water daily</li>
+<li class=""whitespace-normal break-words"" index=""1"">Trim stems at an angle</li>
+<li class=""whitespace-normal break-words"" index=""2"">Keep away from direct sunlight</li>
+<li class=""whitespace-normal break-words"" index=""3"">Maintain room temperature<br>
+</li>
+<li class=""whitespace-normal break-words"" index=""5"">Expected vase life: 2-3 days with proper care and temperature</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""0""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""1""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Christmas",true,Title,Default Title,,,,,,,,,1360.77711,,deny,manual,109.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1075.png?v=1733559050,1,"",false,,"Best for Christmas date. Freedom red roses with fake snow. 11-12 premium roses, elegantly wrapped. Perfect for special occasions.",2899,,,,,,,,,,,,,,,,bouquet,,red,,,,,,,,medium,,,,,,,,lb,,30.00,true,,,active
+christmas-rose,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1109.png?v=1733559050,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+christmas-rose,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1062.png?v=1733559050,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+rosette-floral-fresh-rose-bouquet,Rosette Floral Fresh Rose Bouquet,"<p>Premium light Blue &amp; Pink Playa Blanca Roses</p>
+<p><strong>Please order at least 7 days in advance for fresh flowers</strong></p>
+<p class=""whitespace-pre-wrap break-words"">PRODUCT HIGHLIGHTS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Premium Fresh Playa Blanca Roses</li>
+<li class=""whitespace-normal break-words"" index=""1"">11-12 Roses per Bouquet</li>
+<li class=""whitespace-normal break-words"" index=""2"">Signature Designer Packaging</li>
+<li class=""whitespace-normal break-words"" index=""3"">Professional Florist Hand-Tied<br>
+</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">BOUQUET OPTIONS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Pink - Classic elegance</li>
+<li class=""whitespace-normal break-words"" index=""1"">Blue - Romantic charm</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">SPECIFICATIONS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Height: Approximately 20 inches</li>
+<li class=""whitespace-normal break-words"" index=""1"">Width: Approximately 14 inches</li>
+<li class=""whitespace-normal break-words"" index=""1"">depth: Approximately 7 inches</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">CARE TIPS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Change water daily</li>
+<li class=""whitespace-normal break-words"" index=""1"">Trim stems at an angle</li>
+<li class=""whitespace-normal break-words"" index=""2"">Keep away from direct sunlight</li>
+<li class=""whitespace-normal break-words"" index=""3"">Maintain room temperature<br>
+</li>
+<li class=""whitespace-normal break-words"" index=""5"">Expected vase life: 2-3 days with proper care and temperature</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""0""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""1""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Bouquets,true,Color,blue,product.metafields.shopify.color-pattern,,,,,,,"",1360.77711,,deny,manual,109.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/50F9BD82-8C7E-4C09-BE62-07E9D2C5231E.jpg?v=1733557503,1,"",false,,"Luxurious fresh  rose bouquets in blue or pink. 11-12 premium Playa Blanca roses, expertly arranged with designer packaging. delivery available.",2899,,,,,,,,,,,,,,,,bouquet,,blue; pink,,,,,,,,medium,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/50F9BD82-8C7E-4C09-BE62-07E9D2C5231E.jpg?v=1733557503,lb,,30.00,true,,,active
+rosette-floral-fresh-rose-bouquet,,,,,,,,,pink,,,,,,,,"",1360.77711,,deny,manual,109.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_5860.jpg?v=1733557778,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/38932218-07FD-487E-A001-27DDFD18C526.jpg?v=1733557503,lb,,30.00,,,,
+rosette-floral-fresh-rose-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/962EC3E8-8754-4B17-8C80-A202775843D8.jpg?v=1733557503,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+rosette-floral-fresh-rose-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/38932218-07FD-487E-A001-27DDFD18C526.jpg?v=1733557503,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+snow-queen-bouquet,Snow Queen Bouquet,"<p>PRODUCT HIGHLIGHTS:</p>
+<ul>
+<li class=""whitespace-normal break-words"" index=""0"">100% Handcrafted with Premium Materials</li>
+<li class=""whitespace-normal break-words"" index=""1"">Large Statement Bouquet (15""W x 22""H x 8""D)</li>
+<li class=""whitespace-normal break-words"" index=""2"">Made with Natural Preserved Flowers Only</li>
+<li class=""whitespace-normal break-words"" index=""3"">Next-Day Shipping (Orders made within 24 hours)</li>
+</ul>
+<p>BOUQUET DETAILS:</p>
+<p class=""whitespace-pre-wrap break-words"">Experience the timeless elegance of our winter-inspired preserved flower bouquet. Each arrangement features:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Navy blue preserved roses</li>
+<li class=""whitespace-normal break-words"" index=""1"">White preserved hydrangeas</li>
+<li class=""whitespace-normal break-words"" index=""2"">Silver accent elements</li>
+<li class=""whitespace-normal break-words"" index=""3"">Premium white and silver floral wrapping</li>
+<li class=""whitespace-normal break-words"" index=""4"">Luxurious ribbon finishing</li>
+</ul>
+<p><span>🚚Supporting USA wide shipping. </span></p>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""0""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""1""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Christmas, Preserved flower Bouquet",true,Title,Default Title,,,,,,,,,0.0,,deny,manual,128.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_3935.png?v=1740210616,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,white,,,,,,,,,,,,,,,,lb,,40.00,true,,,active
+snow-queen-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1175.png?v=1740210616,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+snow-queen-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1183.png?v=1740210616,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+snow-queen-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_1168.png?v=1740210616,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+romantic-peach-pink-carnation-bridal-bouquet,Romantic Peach & Pink Carnation Bridal Bouquet,"<p class=""whitespace-pre-wrap break-words"">Create unforgettable wedding memories with this exquisitely handcrafted bridal bouquet. This romantic arrangement features:</p>
+<p><strong>Please order at least 7 days in advance for fresh flowers</strong></p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Premium pink and peach carnations as focal flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Fresh white chamomile daisies</li>
+<li class=""whitespace-normal break-words"" index=""2"">Delicate green foliage and seasonal fillers</li>
+<li class=""whitespace-normal break-words"" index=""3"">Soft pink silk ribbon styling</li>
+<li class=""whitespace-normal break-words"" index=""4"">Natural garden-inspired design</li>
+<li class=""whitespace-normal break-words"" index=""5"">Perfect hand-tied size for comfortable holding</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">This stunning bridal bouquet embodies the perfect balance of romance and sophistication. The carefully selected combination of pink and peach carnations creates a soft, feminine palette, while white chamomile adds a charming garden-fresh touch. Fresh green accents provide natural contrast and movement throughout the design.</p>
+<p class=""whitespace-pre-wrap break-words"">Specifications:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Bouquet diameter: Approximately 9 inch</li>
+<li class=""whitespace-normal break-words"" index=""1"">Bouquet length: Approximately 15 inch<br>
+</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">Perfect For:</p>
+<p class=""whitespace-pre-wrap break-words"">✔️ Spring/Summer Weddings ✔️ Garden Ceremonies ✔️ Pre-wedding Photo Shoots ✔️ Romantic Church Weddings ✔️ Intimate Wedding Celebrations</p>
+<p class=""whitespace-pre-wrap break-words"">Care Tips:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Keep in cool water until ceremony</li>
+<li class=""whitespace-normal break-words"" index=""1"">Avoid direct sunlight</li>
+<li class=""whitespace-normal break-words"" index=""2"">Mist flowers lightly if needed</li>
+<li class=""whitespace-normal break-words"" index=""3"">Best enjoyed within 24-48 hours of delivery</li>
+<li class=""whitespace-normal break-words"" index=""4"">Professional photos recommended before ceremony</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2"" data-mce-style=""color: rgb(12, 132, 43);"">
+<span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""0"" data-mce-style=""color: rgb(12, 132, 43);""><span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""1"" data-mce-style=""color: rgb(12, 132, 43);""><span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2"" data-mce-style=""color: rgb(12, 132, 43);""><span style=""color: rgb(12, 132, 43);"" data-mce-style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,"Bouquets, Wedding",true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,120.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0588.jpg?v=1727839306,1,"",false,,Enchanting pink & peach carnation bridal bouquet with fresh chamomile & silk ribbons. Perfectly hand-tied for your dream wedding day. Order now for your special day.,2899,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,40.00,true,,,active
+romantic-peach-pink-carnation-bridal-bouquet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0589.jpg?v=1727839306,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+flower-basket,Blooming Floral Baskets,"<p><strong>Fresh Flower Baskets for Every Occasion</strong><br>Delight in the vibrant beauty of our handcrafted fresh flower baskets. Designed with the finest seasonal blooms, each basket is a celebration of nature’s elegance—perfect for special occasions, home décor, or thoughtful gifts.</p>
+<p>🌸 <strong>Features</strong>:</p>
+<ul>
+<li>🌿 <strong>Freshly Picked Blooms:</strong> Filled with freshly picked flowers for a lush, natural look.</li>
+<li>🧺 <strong>Handwoven Baskets:</strong> Artfully arranged in handwoven baskets for a timeless touch.</li>
+<li>🎉 <strong>Perfect for Any Occasion:</strong> Ideal for celebrations like birthdays, anniversaries, or just-because moments.</li>
+</ul>
+<p>Experience the joy of fresh blooms with our exquisite flower baskets—bringing nature’s fragrance and charm into your life.</p>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""0""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""1""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Home & Garden > Decor > Baskets,Floral Baskets,Bouquets,true,Title,Default Title,,,,,,,,"",0.0,,deny,manual,102.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0434.jpg?v=1727838995,1,"",false,,"🌿 Freshly Picked Blooms: Filled with freshly picked flowers for a lush, natural look.
+🧺 Handwoven Baskets: Artfully arranged in handwoven baskets for a timeless touch.
+🎉 Perfect for Any Occasion: Ideal for celebrations like birthdays, anniversaries, or just-because moments.",573,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,35.00,true,,,active
+flower-basket,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0439.jpg?v=1727838995,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+flower-basket,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0441.png?v=1733548870,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+natural-cotton-car-diffuser-bouquet,Natural Cotton Car Diffuser Bouquet,"<p class=""whitespace-pre-wrap break-words"">Transform your car's interior with this charming decorative vent clip bouquet featuring:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Natural white cotton flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Preserved light green hydrangea</li>
+<li class=""whitespace-normal break-words"" index=""5"">Durable vent clip attachment<br>
+</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">This uniquely designed car accessory combines beauty with functionality. The petite bouquet brings a touch of nature to your daily drive while securely attaching to your car's air vent. Each piece is carefully crafted with preserved and dried materials to ensure lasting beauty without maintenance.</p>
+<p class=""whitespace-pre-wrap break-words""><strong>Specifications</strong>:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Overall size: 6 x 5 x 2 inch<br>
+</li>
+<li class=""whitespace-normal break-words"" index=""2"">Lightweight design for secure vent attachment</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">Features &amp; Benefits:</p>
+<p class=""whitespace-pre-wrap break-words"">✔️ Easy clip-on installation ✔️ Long-lasting preserved materials ✔️ Will not wilt or fade ✔️ No water needed ✔️ Suitable for all seasons ✔️ Makes a unique gift for car lovers</p>
+<p class=""whitespace-pre-wrap break-words"">Care Instructions:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Avoid direct sunlight when parked</li>
+<li class=""whitespace-normal break-words"" index=""1"">Gently dust with soft brush if needed</li>
+<li class=""whitespace-normal break-words"" index=""2"">Keep away from excessive moisture</li>
+<li class=""whitespace-normal break-words"" index=""3"">Handle clip with care when adjusting</li>
+</ul>
+<p><span>🚚Supporting USA wide shipping. </span></p>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""0""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""1""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li class=""whitespace-normal break-words"" style=""color: rgb(12, 132, 43);"" index=""2""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,"Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Maintenance, Care & Decor > Vehicle Decor",Accessories,gift,true,Design,Cotton + Brown,,,,,,,,"",453.59237,,deny,manual,29.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0227.jpg?v=1734149831,1,"",false,,"Elevate your car interior with our preserved cotton flower vent clip bouquet. Natural white & green tones, easy installation. The perfect blend of style & functionality.
+",5455,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0227.jpg?v=1734149831,lb,,10.00,true,,,active
+natural-cotton-car-diffuser-bouquet,,,,,,,,,Customize (contact us),,,,,,,,"",453.59237,,deny,manual,29.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0232.jpg?v=1734149607,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0232.jpg?v=1734149607,lb,,10.00,,,,
+enchanting-preserved-garden,Glass Vintage Jewelry Box,"<p>Magical proposal box: preserved floral beauty surrounds your hidden ring, creating an unforgettable moment.</p>
+<p>• 100% Handcraft<br>• All-Natural Preserved Flowers<br>• Perfect for Home Décor or Events</p>
+<p><span>🚚Supporting USA wide shipping. </span></p>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""0""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""1""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Hobbies & Creative Arts > Arts & Crafts > Art & Crafting Tools > Craft Decoration Makers,Preserved Floral Creations,"gift, Preserved Floral Creations",true,Title,Default Title,,,,,,,,"",1360.77711,,deny,manual,89.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_4993.jpg?v=1727760798,1,"",false,,,505386,,,,,,,,,,,,,,,,,glass; metal,,,,,,,,,,,,,,,,,lb,,60.00,true,,,active
+enchanting-preserved-garden,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0064.jpg?v=1727760798,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+enchanting-preserved-garden,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0066.jpg?v=1727760798,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+enchanting-preserved-garden,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0067.jpg?v=1727760798,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+table-flower,Gold Preserved Centerpiece,"<p class=""whitespace-pre-wrap break-words"">Elevate your space with this exquisitely crafted preserved flower arrangement. This sophisticated tabletop piece features a thoughtful combination of premium preserved flowers:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Delicate peach preserved rose</li>
+<li class=""whitespace-normal break-words"" index=""1"">Pure white cotton flowers</li>
+<li class=""whitespace-normal break-words"" index=""2"">Elegant cattail leaf fan</li>
+<li class=""whitespace-normal break-words"" index=""3"">Dusty purple preserved hydrangea</li>
+<li class=""whitespace-normal break-words"" index=""4"">Carefully selected dried flower elements</li>
+<li class=""whitespace-normal break-words"" index=""5"">Gold geometric square vase</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">Care Instructions:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Keep away from direct sunlight</li>
+<li class=""whitespace-normal break-words"" index=""1"">Avoid water exposure</li>
+<li class=""whitespace-normal break-words"" index=""2"">Dust gently with cool air from hair dryer when needed</li>
+<li class=""whitespace-normal break-words"" index=""3"">Designed for indoor display</li>
+</ul>
+<p><span>🚚Supporting USA wide shipping. </span></p>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""0""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""1""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Home & Garden > Plants > Flowers,Table Centerpiece,"Centerpiece, Preserved Floral Creations",true,Color,gold,product.metafields.shopify.color-pattern,,,,,,,"",0.0,,deny,manual,150.00,240.00,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0018.heic?v=1727759862,1,"",false,,"Discover our luxurious preserved flower arrangement featuring peach rose, cotton flowers & gold feather. Lasting beauty meets modern design in this premium tabletop masterpiece. Free shipping.",984,,,,,,,,,,,,,,,,,,gold,,,,flowering,,,,,indoors,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0043.heic?v=1727759862,lb,,50.00,true,,,active
+table-flower,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0043.heic?v=1727759862,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+table-flower,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0022.heic?v=1727759862,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+table-flower,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0025.heic?v=1727759862,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+blue-bouquets,Breeze Bouquet,"<p class=""whitespace-pre-wrap break-words""> PRODUCT HIGHLIGHTS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">100% Handcrafted with Premium Materials</li>
+<li class=""whitespace-normal break-words"" index=""1"">Available in Medium &amp; Large Sizes</li>
+<li class=""whitespace-normal break-words"" index=""2"">Made with Natural Preserved Flowers Only</li>
+<li class=""whitespace-normal break-words"" index=""3"">Next-Day Shipping (Orders made within 24 hours)</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">SIZE OPTIONS: Medium: 11""W x 18""H Large: 15""W x 22""H</p>
+<p class=""whitespace-pre-wrap break-words""> BOUQUET DETAILS:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Soft blue preserved roses</li>
+<li class=""whitespace-normal break-words"" index=""1"">Natural cotton flowers</li>
+<li class=""whitespace-normal break-words"" index=""2"">Frosted foliage accents</li>
+<li class=""whitespace-normal break-words"" index=""3"">Pastel blue floral wrapping</li>
+<li class=""whitespace-normal break-words"" index=""4"">Elegant gray ribbon finishing</li>
+</ul>
+<p><span>🚚Supporting USA wide shipping. </span></p>
+<p class=""whitespace-pre-wrap break-words"">💡 CUSTOM ORDERS: Have a specific color scheme or unique design ideas? Contact us before placing your order - we'll create a custom piece that perfectly matches your vision.</p>
+<p class=""whitespace-pre-wrap break-words"">📞 CONTACT US:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">WhatsApp/Message: +1-919-510-2830</li>
+<li class=""whitespace-normal break-words"" index=""1"">Instagram</li>
+<li class=""whitespace-normal break-words"" index=""2"">Xiaohongshu</li>
+</ul>
+<p class=""whitespace-pre-wrap break-words"">⏰ DELIVERY NOTE:</p>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""0"">
+<li class=""whitespace-normal break-words"" index=""0"">Please order at least 7 days in advance for fresh flowers</li>
+<li class=""whitespace-normal break-words"" index=""1"">Same/Next day delivery available for preserved flower products</li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2"">
+<span style=""color: rgb(12, 132, 43);"">Delivery available to:</span>
+<ul class=""-mt-1 [li&gt;&amp;]:mt-2 list-disc space-y-2 pl-8"" depth=""1"">
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""0""><span style=""color: rgb(12, 132, 43);"">District of Columbia (DC)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""1""><span style=""color: rgb(12, 132, 43);"">Northern Virginia (locations within 20 minutes of Arlington)</span></li>
+<li style=""color: rgb(12, 132, 43);"" class=""whitespace-normal break-words"" index=""2""><span style=""color: rgb(12, 132, 43);"">Durham, North Carolina (locations within 20 minutes of Durham)</span></li>
+</ul>
+</li>
+<li class=""whitespace-normal break-words"" index=""3"">Fresh flowers subject to seasonal availability and market conditions</li>
+<li class=""whitespace-normal break-words"" index=""4"">Free delivery available for select areas (please inquire)</li>
+<li class=""whitespace-normal break-words"" index=""5"">For specific delivery dates, please contact us to confirm availability</li>
+</ul>",Sun Florist,Arts & Entertainment > Party & Celebration > Gift Giving > Fresh Cut Flowers,Bouquets,Preserved flower Bouquet,true,size,medium,,,,,,,,"",0.0,,deny,manual,138.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/895B0F45-9F01-461D-96DD-79CD8F15D596.jpg?v=1738087764,1,"",false,,,2899,,,,,,,,,,,,,,,,bouquet,,blue,,,,,,,,,,,,,,,,lb,,,true,,,active
+blue-bouquets,,,,,,,,,large,,,,,,,,"",0.0,,deny,manual,168.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0641/1200/1069/files/CB98F5A4-DCCC-4A4C-B1A5-F1EF26FAC268.jpg?v=1738087764,2,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lb,,,,,,
+blue-bouquets,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/IMG_0156.heic?v=1738087764,3,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+blue-bouquets,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0641/1200/1069/files/Blue.jpg?v=1738087764,4,"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

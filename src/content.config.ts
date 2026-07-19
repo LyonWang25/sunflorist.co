@@ -5,9 +5,11 @@ const products = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/products' }),
   schema: z.object({
     name: z.string(),
+    // underscores allowed: Shopify handles are kept verbatim as slugs so old
+    // /products/{handle} URLs survive the migration without redirects
     slug: z
       .string()
-      .regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, 'slug must be lowercase words joined by hyphens'),
+      .regex(/^[a-z0-9]+([-_][a-z0-9]+)*$/, 'slug must be lowercase words joined by hyphens'),
     no: z.string(),
     category: z.enum(['bouquets', 'wedding-bouquets', 'preserved-florals']),
     price: z.number().positive(),
