@@ -3,7 +3,7 @@ name: "Calla Lily"
 slug: "calla-lily"
 no: "W-18"
 category: "wedding-bouquets"
-price: 168
+price: 126
 palette: "White · Green"
 size: "Bridal / Bridesmaid"
 images:
@@ -20,4 +20,3 @@ description: "A sculptural hand-tied bouquet of white calla lilies with wild gra
 order: 18
 draft: false
 ---
-<!-- TODO: confirm price (set to 168 as a placeholder) -->
