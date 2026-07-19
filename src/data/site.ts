@@ -13,7 +13,7 @@ export const site = {
     'Boutique florist for hand-composed bouquets, preserved florals and wedding work, serving Washington DC, Maryland, Virginia and North Carolina.',
 
   serviceAreaShort: 'DC · MD · VA · NC',
-  serviceAreaKicker: 'Washington · Maryland · Virginia · Carolina',
+  serviceAreaKicker: 'Washington · Maryland · Virginia · North Carolina',
   serviceAreaLong: 'Washington DC, Maryland, Virginia and North Carolina',
 
   /** pickup locations — first entry is the primary address for NAP/JSON-LD */
