@@ -12,7 +12,8 @@ import { blurDataUrl } from '../utils/blur';
 
 const hero = siteImage('hero.jpg');
 const heroBlur = await blurDataUrl('site/hero.jpg');
-const heroWidths = [640, 1024, 1600, 2000];
+// source photo is 1692px wide — don't request upscaled variants
+const heroWidths = [640, 1024, 1600];
 const heroSizes = '100vw';
 
 // Preload the LCP image only (AVIF variant; browsers skip unsupported types).
@@ -51,7 +52,7 @@ const gallery = Array.from({ length: 9 }, (_, i) => siteImage(`gallery-0${i + 1}
         sizes={heroSizes}
         formats={['avif', 'webp']}
         quality={80}
-        alt="Lush floral arrangement of roses and seasonal blooms filling the frame"
+        alt="Sunlit florist studio filled with fresh bouquets of roses, dahlias and eucalyptus in soft pink and cream tones"
         loading="eager"
         fetchpriority="high"
       />
@@ -251,16 +252,18 @@ const gallery = Array.from({ length: 9 }, (_, i) => siteImage(`gallery-0${i + 1}
     object-fit: cover;
   }
 
+  /* translucent black mask: the photo is bright, so a uniform scrim keeps the
+     white headline readable, with slightly heavier top/bottom gradients */
   .hero::after {
     content: '';
     position: absolute;
     inset: 0;
     background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.45),
-      rgba(0, 0, 0, 0) 42%,
-      rgba(0, 0, 0, 0) 60%,
-      rgba(0, 0, 0, 0.38)
+      rgba(0, 0, 0, 0.52),
+      rgba(0, 0, 0, 0.3) 42%,
+      rgba(0, 0, 0, 0.3) 60%,
+      rgba(0, 0, 0, 0.46)
     );
   }
 

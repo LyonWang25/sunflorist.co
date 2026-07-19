@@ -1,4 +1,5 @@
 ---
+import logo from '../assets/site/logo.svg';
 import { site } from '../data/site';
 
 interface Props {
@@ -16,7 +17,7 @@ const napLine = `${site.address.street}, ${site.address.city}, ${site.address.re
     <footer class="footer footer--full">
       <div class="container footer-grid">
         <div class="footer-brand">
-          <span class="footer-word">Sun Florist</span>
+          <img class="footer-logo" src={logo.src} alt="Sun Florist" width="113" height="40" />
           <p>Hand-composed florals for daily life, weddings and events.</p>
         </div>
         <div>
@@ -70,14 +71,18 @@ const napLine = `${site.address.street}, ${site.address.city}, ${site.address.re
     margin-top: var(--space-section);
   }
 
-  .footer-word {
-    font-family: var(--font-display);
-    font-style: italic;
-    font-weight: 600;
-    font-size: 22px;
-    color: #ffffff;
-    display: block;
-    margin-bottom: var(--space-2);
+  .footer-logo {
+    height: 40px;
+    width: auto;
+    margin-inline: auto;
+    margin-bottom: var(--space-3);
+    filter: brightness(0) invert(1);
+  }
+
+  @media (min-width: 768px) {
+    .footer-logo {
+      margin-inline: 0;
+    }
   }
 
   .footer-grid {

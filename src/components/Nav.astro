@@ -1,4 +1,6 @@
 ---
+import logo from '../assets/site/logo.svg';
+
 interface Props {
   /** "standard": white bar with divider (inner pages). "hero": transparent overlay with white text. */
   variant?: 'standard' | 'hero';
@@ -17,24 +19,8 @@ const links = [
 
 <header class:list={['site-header', variant === 'hero' && 'site-header--hero']}>
   <div class="container nav-row">
-    <a class="brand" href="/" aria-label="Sun Florist — home">
-      <svg
-        class="brand-mark"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 64 64"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="3"
-        aria-hidden="true"
-      >
-        <ellipse cx="32" cy="17" rx="6.5" ry="11"></ellipse>
-        <ellipse cx="32" cy="47" rx="6.5" ry="11"></ellipse>
-        <ellipse cx="17" cy="32" rx="11" ry="6.5"></ellipse>
-        <ellipse cx="47" cy="32" rx="11" ry="6.5"></ellipse>
-        <circle cx="32" cy="32" r="6" fill="currentColor" stroke="none"></circle>
-      </svg>
-      <!-- TODO: replace text wordmark with the real script logo asset -->
-      <span class="brand-word">Sun Florist</span>
+    <a class="brand" href="/">
+      <img class="brand-logo" src={logo.src} alt="Sun Florist" width="124" height="44" />
     </a>
 
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" hidden>
@@ -98,28 +84,12 @@ const links = [
   .brand {
     display: inline-flex;
     align-items: center;
-    gap: var(--space-2);
-    color: var(--color-text);
   }
 
-  .brand:hover {
-    color: var(--color-text);
-  }
-
-  .brand-mark {
-    width: 26px;
-    height: 26px;
-    color: var(--color-accent);
-  }
-
-  .brand-word {
-    font-family: var(--font-display);
-    font-style: italic;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0.02em;
-    white-space: nowrap;
+  /* the logo carries its own colors (teal + gold); height per design system */
+  .brand-logo {
+    height: 44px;
+    width: auto;
   }
 
   .site-nav ul {
@@ -152,9 +122,8 @@ const links = [
       min-height: 60px;
     }
 
-    .brand-word {
-      font-size: 21px;
-      line-height: 28px;
+    .brand-logo {
+      height: 38px;
     }
 
     .nav-toggle {
@@ -221,11 +190,14 @@ const links = [
     border-bottom: 0;
   }
 
-  .site-header--hero .brand,
-  .site-header--hero .brand-mark,
   .site-header--hero .site-nav a:not(.btn),
   .site-header--hero .nav-toggle {
     color: #ffffff;
+  }
+
+  /* white logo over the hero photograph */
+  .site-header--hero .brand-logo {
+    filter: brightness(0) invert(1);
   }
 
   .site-header--hero .site-nav a:not(.btn):hover {
