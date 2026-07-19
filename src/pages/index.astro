@@ -458,8 +458,17 @@ const gallery = Array.from({ length: 9 }, (_, i) => siteImage(`gallery-0${i + 1}
   }
 
   .statement-media {
+    position: relative;
     max-height: 520px;
     overflow: hidden;
+  }
+
+  /* translucent black mask, consistent with the hero */
+  .statement-media::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.18);
   }
 
   .statement-media :global(img) {
@@ -467,7 +476,15 @@ const gallery = Array.from({ length: 9 }, (_, i) => siteImage(`gallery-0${i + 1}
     height: 100%;
     object-fit: cover;
     /* crop window sits low so the ceremony arch and chairs stay visible */
-    object-position: center 78%;
+    object-position: center 82%;
+  }
+
+  /* the wider the viewport, the more the photo scales up — give the band
+     more height on large screens so the ceremony scene stays in frame */
+  @media (min-width: 1400px) {
+    .statement-media {
+      max-height: 660px;
+    }
   }
 
   .statement-card {
