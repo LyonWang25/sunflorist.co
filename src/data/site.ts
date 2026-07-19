@@ -38,6 +38,9 @@ export const site = {
   phoneHref: 'tel:+19195102830',
   phoneE164: '+1-919-510-2830',
 
+  email: 'dmv@sunflorist.co',
+  emailHref: 'mailto:dmv@sunflorist.co',
+
   delivery: 'United States · preserved florals only',
 
   /** official WhatsApp contact link (decoded from the account QR) */

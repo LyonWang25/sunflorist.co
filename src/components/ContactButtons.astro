@@ -2,20 +2,20 @@
 import { site } from '../data/site';
 
 interface Props {
-  /** include the phone button (secondary style) */
-  phone?: boolean;
+  /** include the email button (secondary style) */
+  email?: boolean;
   /** stack buttons full-width (mobile CTA style stays via CSS) */
   layout?: 'row' | 'grid';
 }
 
-const { phone = false, layout = 'row' } = Astro.props;
+const { email = false, layout = 'row' } = Astro.props;
 ---
 
 <div class:list={['contact-buttons', `contact-buttons--${layout}`]}>
   <a class="btn" href={site.whatsappHref} data-chat-cta>WhatsApp</a>
   <a class="btn" href={site.wechatHref} data-chat-cta>WeChat</a>
   <a class="btn" href={site.instagramHref}>Instagram</a>
-  {phone && <a class="btn btn--secondary" href={site.phoneHref}>Call us</a>}
+  {email && <a class="btn btn--secondary" href={site.emailHref}>Email</a>}
 </div>
 
 <style>

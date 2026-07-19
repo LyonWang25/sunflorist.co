@@ -13,6 +13,7 @@ export function floristJsonLd() {
     url: `${site.url}/`,
     image: `${site.url}/og/home.jpg`,
     telephone: site.phoneE164,
+    email: site.email,
     address: site.pickupLocations.map((loc) => ({
       '@type': 'PostalAddress',
       streetAddress: loc.street,
