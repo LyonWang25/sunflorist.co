@@ -30,7 +30,7 @@ export function floristJsonLd() {
         closes: site.hours.closes,
       },
     ],
-    sameAs: [site.instagramHref],
+    sameAs: [site.instagramHref, site.rednoteHref],
     areaServed: ['Washington DC', 'Maryland', 'Virginia', 'North Carolina'],
   };
 }

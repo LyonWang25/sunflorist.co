@@ -50,6 +50,8 @@ export const site = {
   wechatName: 'SunFlorist',
   instagramHref: 'https://www.instagram.com/sun_florist.co/',
   instagramHandle: '@sun_florist.co',
+  /** RedNote (Xiaohongshu / 小紅書) profile */
+  rednoteHref: 'https://www.xiaohongshu.com/user/profile/5e60af8700000000010061e0',
 
   hours: {
     label: 'Mon–Sat · 9:00–20:00',
