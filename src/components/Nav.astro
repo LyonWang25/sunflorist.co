@@ -111,6 +111,11 @@ const links = [
     color: var(--color-accent-700);
   }
 
+  /* hidden everywhere by default; only mobile-with-JS reveals it */
+  .nav-toggle {
+    display: none;
+  }
+
   .nav-contact {
     min-height: 40px;
     padding: var(--space-1) var(--space-5);
@@ -126,7 +131,7 @@ const links = [
       height: 38px;
     }
 
-    .nav-toggle {
+    .nav-toggle:not([hidden]) {
       display: inline-flex;
       flex-direction: column;
       justify-content: center;

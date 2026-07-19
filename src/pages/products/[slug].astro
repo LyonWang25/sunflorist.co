@@ -91,7 +91,11 @@ const jsonLd = [
     <div class="pd-grid">
       <!-- gallery: scroll-snap carousel (dots on mobile, thumbnails on desktop) -->
       <div class="pd-gallery">
-        <div class="pd-scroller blur-up" style={`background-image:url(${mainBlur})`} tabindex="0">
+        <div
+          class="pd-scroller blur-up"
+          style={`background-image:url(${mainBlur});aspect-ratio:${metas[0]!.width} / ${metas[0]!.height}`}
+          tabindex="0"
+        >
           {
             metas.map((img, i) => (
               <div class="pd-slide">
@@ -224,12 +228,16 @@ const jsonLd = [
     position: relative;
   }
 
+  /* frame ratio follows the main photo (inline aspect-ratio); every slide is
+     shown in full — no cropping — and letterboxes over the blurred backdrop */
   .pd-scroller {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
     background-color: var(--color-surface);
+    max-height: 76vh;
+    width: 100%;
   }
 
   .pd-scroller::-webkit-scrollbar {
@@ -243,8 +251,8 @@ const jsonLd = [
 
   .pd-slide :global(img) {
     width: 100%;
-    height: 430px;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
   }
 
   .pd-dots {
@@ -356,10 +364,6 @@ const jsonLd = [
       grid-template-columns: 1.1fr 1fr;
       gap: var(--space-8);
       align-items: start;
-    }
-
-    .pd-slide :global(img) {
-      height: 560px;
     }
 
     .pd-dots {
