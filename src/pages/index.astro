@@ -28,11 +28,12 @@ const intro = siteImage('intro.jpg');
 const statement = siteImage('statement.jpg');
 const statementBlur = await blurDataUrl('site/statement.jpg');
 
-// The gallery wall shows GALLERY_SLOTS photos at a time and rotates to the
-// next set every GALLERY_ROTATE_DAYS days (computed client-side from the
-// date — no rebuild needed). All photos in src/assets/site/gallery/ take
-// part; without JS the first set is shown.
-const GALLERY_SLOTS = 9;
+// The gallery wall is a fixed mosaic: 10 slots on mobile, 9 on desktop
+// (slot 10 hides), always perfectly packed regardless of photo sizes.
+// It rotates to the next set every GALLERY_ROTATE_DAYS days (client-side
+// date math — no rebuild needed). All photos in src/assets/site/gallery/
+// take part; without JS the first set is shown as a uniform grid.
+const GALLERY_SLOTS = 10;
 const GALLERY_ROTATE_DAYS = 1;
 const gallery = galleryImages();
 ---
@@ -238,21 +239,26 @@ const gallery = galleryImages();
 <script>
   // Gallery wall rotation: shows a different set of photos every N days,
   // cycling through everything in src/assets/site/gallery/. Pure date math —
-  // works on a static host with no rebuilds.
+  // works on a static host with no rebuilds. Each visible photo is assigned
+  // a mosaic slot (data-slot 1..N) that maps to a fixed grid position.
   const wall = document.querySelector<HTMLElement>('.masonry');
   if (wall) {
-    const slots = Number(wall.dataset.slots ?? 9);
+    const slots = Number(wall.dataset.slots ?? 10);
     const period = Math.max(1, Number(wall.dataset.periodDays ?? 1));
     const items = Array.from(wall.children) as HTMLElement[];
-    if (items.length > slots) {
-      const groups = Math.ceil(items.length / slots);
-      const day = Math.floor(Date.now() / 86_400_000 / period);
-      const start = ((day % groups) + groups) % groups * slots;
-      items.forEach((item, i) => {
-        const inWindow = (i - start + items.length) % items.length < slots;
-        item.style.display = inWindow ? 'block' : 'none';
-      });
-    }
+    const groups = Math.max(1, Math.ceil(items.length / slots));
+    const day = Math.floor(Date.now() / 86_400_000 / period);
+    const start = (day % groups) * slots;
+    items.forEach((item, i) => {
+      const offset = (i - start + items.length) % items.length;
+      if (offset < slots) {
+        item.style.display = '';
+        item.dataset.slot = String(offset + 1);
+      } else {
+        item.style.display = 'none';
+        delete item.dataset.slot;
+      }
+    });
   }
 </script>
 
@@ -406,34 +412,65 @@ const gallery = galleryImages();
     }
   }
 
-  /* ---- Gallery masonry ---- */
+  /* ---- Gallery mosaic ----
+     Fixed slot pattern on a grid: every column adds up to the same number of
+     row units, so the wall is always perfectly packed with a flush bottom no
+     matter what size or ratio the photos are (they crop to fill their slot).
+     Mobile: 2 cols × 6 rows = 10 slots (2 tall). Desktop: 3 cols × 4 rows =
+     9 slots (3 tall, slot 10 hidden). */
   .masonry {
-    column-count: 2;
-    column-gap: 10px;
-  }
-
-  /* default (and no-JS): only the first set is visible; the rotation script
-     overrides per-item visibility with inline styles */
-  .masonry > :global(:nth-child(n + 10)) {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: clamp(110px, 32vw, 150px);
+    gap: 10px;
   }
 
   .masonry :global(img) {
     width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+    height: 100%;
+    object-fit: cover;
     background: var(--color-surface);
   }
 
+  /* no-JS fallback: uniform tiles, first 10 photos (still flush) */
+  :global(html:not(.js)) .masonry > :global(:nth-child(n + 11)) {
+    display: none;
+  }
+
+  /* mobile mosaic: tall slots at 1 and 6; both columns total 6 units */
+  .masonry > :global([data-slot='1']) { grid-column: 1; grid-row: 1 / span 2; }
+  .masonry > :global([data-slot='2']) { grid-column: 2; grid-row: 1; }
+  .masonry > :global([data-slot='3']) { grid-column: 2; grid-row: 2; }
+  .masonry > :global([data-slot='4']) { grid-column: 1; grid-row: 3; }
+  .masonry > :global([data-slot='5']) { grid-column: 2; grid-row: 3; }
+  .masonry > :global([data-slot='6']) { grid-column: 2; grid-row: 4 / span 2; }
+  .masonry > :global([data-slot='7']) { grid-column: 1; grid-row: 4; }
+  .masonry > :global([data-slot='8']) { grid-column: 1; grid-row: 5; }
+  .masonry > :global([data-slot='9']) { grid-column: 1; grid-row: 6; }
+  .masonry > :global([data-slot='10']) { grid-column: 2; grid-row: 6; }
+
   @media (min-width: 768px) {
     .masonry {
-      column-count: 3;
-      column-gap: 16px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: clamp(220px, 19vw, 300px);
+      gap: 16px;
     }
 
-    .masonry :global(img) {
-      margin-bottom: 16px;
+    :global(html:not(.js)) .masonry > :global(:nth-child(n + 10)) {
+      display: none;
     }
+
+    /* desktop mosaic: tall slots on the diagonal; every column totals 4 units */
+    .masonry > :global([data-slot='1']) { grid-column: 1; grid-row: 1 / span 2; }
+    .masonry > :global([data-slot='2']) { grid-column: 2; grid-row: 1; }
+    .masonry > :global([data-slot='3']) { grid-column: 3; grid-row: 1; }
+    .masonry > :global([data-slot='4']) { grid-column: 2; grid-row: 2; }
+    .masonry > :global([data-slot='5']) { grid-column: 3; grid-row: 2 / span 2; }
+    .masonry > :global([data-slot='6']) { grid-column: 1; grid-row: 3; }
+    .masonry > :global([data-slot='7']) { grid-column: 2; grid-row: 3 / span 2; }
+    .masonry > :global([data-slot='8']) { grid-column: 1; grid-row: 4; }
+    .masonry > :global([data-slot='9']) { grid-column: 3; grid-row: 4; }
+    .masonry > :global([data-slot='10']) { display: none; }
   }
 
   /* ---- Collections ---- */
