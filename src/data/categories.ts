@@ -23,7 +23,7 @@ export interface Category {
 export const categories: Category[] = [
   {
     slug: 'bouquets',
-    name: 'Bouquets',
+    name: 'Daily Bouquets',
     numeral: 'i.',
     cover: 'category-bouquets.jpg',
     coverAlt: 'Fresh hand-tied bouquets in seasonal colors',
