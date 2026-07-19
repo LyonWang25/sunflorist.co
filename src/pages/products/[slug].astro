@@ -9,7 +9,7 @@ import ContactButtons from '../../components/ContactButtons.astro';
 import { site } from '../../data/site';
 import { getCategory } from '../../data/categories';
 import { breadcrumbJsonLd, productJsonLd } from '../../data/jsonld';
-import { productImage } from '../../utils/images';
+import { productImage, productImagePath } from '../../utils/images';
 import { getProducts, type Product } from '../../utils/products';
 import { blurDataUrl } from '../../utils/blur';
 
@@ -28,7 +28,7 @@ const cat = getCategory(category)!;
 const path = `/products/${product.data.slug}/`;
 
 const metas = images.map((file) => productImage(file));
-const mainBlur = await blurDataUrl(`products/${images[0]}`);
+const mainBlur = await blurDataUrl(productImagePath(images[0]!));
 
 const mainWidths = [480, 800, 1200];
 const mainSizes = '(max-width: 767px) 100vw, 660px';

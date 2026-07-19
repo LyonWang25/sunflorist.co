@@ -19,10 +19,17 @@ Full specifications live in [docs/](docs/) — read them before changing anythin
 
 ## Adding a product
 
-1. Put clean product photos in `src/assets/products/` (use the import script below).
+1. Photos live in one folder per product, named `{No}-{slug}` — e.g.
+   `src/assets/products/W-18-calla-lily/`. Import raw photos straight into it:
+
+   ```bash
+   npm run images -- --slug calla-lily --dest src/assets/products/W-18-calla-lily
+   ```
+
 2. Add one Markdown file in `src/content/products/{slug}.md` — copy an existing
    file for the frontmatter fields (name, slug, no, category, price, palette,
-   size, images, description, order).
+   size, images, description, order). `images:` entries are bare filenames;
+   the build finds them in any product folder automatically.
 3. `npm run build`. The category list, counts, detail page, sitemap and
    structured data all update automatically.
 
