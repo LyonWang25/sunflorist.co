@@ -50,7 +50,7 @@ export const categories: Category[] = [
     name: 'Wedding & Events',
     numeral: 'iv.',
     cover: 'category-wedding-events.jpg',
-    coverAlt: 'Wedding ceremony chairs decorated with fresh florals',
+    coverAlt: 'Seaside wedding ceremony with a white floral arch and aisle flowers',
     intro:
       'Full-service floral design for weddings and events — ceremony, reception and everything in between. Every celebration is planned in conversation, not off a shelf.',
     consultationOnly: true,
