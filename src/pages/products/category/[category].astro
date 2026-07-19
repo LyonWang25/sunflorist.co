@@ -42,18 +42,39 @@ const crumbs = [
     {
       cat.consultationOnly ? (
         <div class="container consult">
-          <div class="consult-media">
-            <Image
-              src={categoryImage(cat.cover)}
-              widths={[640, 1024, 1600]}
-              sizes="(max-width: 767px) 100vw, 920px"
-              format="webp"
-              quality={75}
-              alt={cat.coverAlt}
-              loading="eager"
-              decoding="async"
-            />
-          </div>
+          {
+            cat.heroVideo ? (
+              <div class="consult-media consult-media--video">
+                <video
+                  autoplay
+                  muted
+                  loop
+                  playsinline
+                  preload="metadata"
+                  poster={cat.heroVideo.poster}
+                  width={cat.heroVideo.width}
+                  height={cat.heroVideo.height}
+                  aria-label={cat.coverAlt}
+                >
+                  <source src={cat.heroVideo.webm} type="video/webm" />
+                  <source src={cat.heroVideo.mp4} type="video/mp4" />
+                </video>
+              </div>
+            ) : (
+              <div class="consult-media">
+                <Image
+                  src={categoryImage(cat.cover)}
+                  widths={[640, 1024, 1600]}
+                  sizes="(max-width: 767px) 100vw, 920px"
+                  format="webp"
+                  quality={75}
+                  alt={cat.coverAlt}
+                  loading="eager"
+                  decoding="async"
+                />
+              </div>
+            )
+          }
           <p class="consult-intro">{cat.intro}</p>
           <ol class="how-steps">
             <li>
@@ -128,6 +149,17 @@ const crumbs = [
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  /* video keeps its native 16:9 — no crop */
+  .consult-media--video {
+    max-height: none;
+  }
+
+  .consult-media--video video {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   .consult-intro {

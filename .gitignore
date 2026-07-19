@@ -21,3 +21,6 @@ pnpm-debug.log*
 
 # raw photo intake (processed by scripts/import-images.mjs, never committed)
 raw/
+
+# original video sources (large; transcoded outputs live in public/videos/)
+src/assets/site/video/
