@@ -54,13 +54,15 @@ export const categories: Category[] = [
     intro:
       'Full-service floral design for weddings and events — ceremony, reception and everything in between. Every celebration is planned in conversation, not off a shelf.',
     consultationOnly: true,
-    heroVideo: {
-      mp4: '/videos/weddings-hero-v1.mp4',
-      webm: '/videos/weddings-hero-v1.webm',
-      poster: '/videos/weddings-hero-poster-v1.webp',
-      width: 1280,
-      height: 720,
-    },
+    // hero video temporarily hidden (KlingAI watermark) — uncomment to restore;
+    // files are still deployed under public/videos/
+    // heroVideo: {
+    //   mp4: '/videos/weddings-hero-v1.mp4',
+    //   webm: '/videos/weddings-hero-v1.webm',
+    //   poster: '/videos/weddings-hero-poster-v1.webp',
+    //   width: 1280,
+    //   height: 720,
+    // },
   },
 ];
 
