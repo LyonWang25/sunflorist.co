@@ -49,6 +49,16 @@ files are never overwritten unless you pass `--force`.
 > `npm run images -- --slug=the-meridian` from Git Bash/cmd, or
 > `npm run images '--' --slug the-meridian` in PowerShell.
 
+## Homepage gallery wall
+
+Drop photos — **HEIC straight from the phone is fine** — into
+`src/assets/site/gallery/`. They are converted, cleaned and renamed
+automatically before every `npm run dev` / `npm run build` (or run
+`npm run gallery` manually). The wall shows 9 photos at a time and rotates
+to the next set daily, cycling through everything in the folder; tune
+`GALLERY_SLOTS` / `GALLERY_ROTATE_DAYS` at the top of
+[src/pages/index.astro](src/pages/index.astro).
+
 ## Placeholder data — replace before launch
 
 All business facts live in **one file**: [src/data/site.ts](src/data/site.ts).

@@ -4,10 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/prepare-gallery.mjs",
     "dev": "astro dev",
+    "prebuild": "node scripts/prepare-gallery.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "images": "node scripts/import-images.mjs",
+    "gallery": "node scripts/prepare-gallery.mjs",
     "placeholders": "node scripts/generate-placeholders.mjs"
   },
   "dependencies": {

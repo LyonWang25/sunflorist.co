@@ -7,7 +7,7 @@ import ContactButtons from '../components/ContactButtons.astro';
 import { site } from '../data/site';
 import { categories } from '../data/categories';
 import { floristJsonLd } from '../data/jsonld';
-import { siteImage, categoryImage } from '../utils/images';
+import { siteImage, categoryImage, galleryImages } from '../utils/images';
 import { blurDataUrl } from '../utils/blur';
 
 const hero = siteImage('hero.jpg');
@@ -28,7 +28,13 @@ const intro = siteImage('intro.jpg');
 const statement = siteImage('statement.jpg');
 const statementBlur = await blurDataUrl('site/statement.jpg');
 
-const gallery = Array.from({ length: 9 }, (_, i) => siteImage(`gallery-0${i + 1}.jpg`));
+// The gallery wall shows GALLERY_SLOTS photos at a time and rotates to the
+// next set every GALLERY_ROTATE_DAYS days (computed client-side from the
+// date — no rebuild needed). All photos in src/assets/site/gallery/ take
+// part; without JS the first set is shown.
+const GALLERY_SLOTS = 9;
+const GALLERY_ROTATE_DAYS = 1;
+const gallery = galleryImages();
 ---
 
 <Base
@@ -102,7 +108,7 @@ const gallery = Array.from({ length: 9 }, (_, i) => siteImage(`gallery-0${i + 1}
         <div class="section-head">
           <span class="kicker">The Gallery</span>
         </div>
-        <div class="masonry">
+        <div class="masonry" data-slots={GALLERY_SLOTS} data-period-days={GALLERY_ROTATE_DAYS}>
           {
             gallery.map((img, i) => (
               <Image
@@ -111,7 +117,7 @@ const gallery = Array.from({ length: 9 }, (_, i) => siteImage(`gallery-0${i + 1}
                 sizes="(max-width: 767px) 50vw, 33vw"
                 format="webp"
                 quality={75}
-                alt={`Floral studio photograph ${i + 1} — placeholder`}
+                alt={`Floral design by Sun Florist — gallery photograph ${i + 1}`}
                 loading="lazy"
                 decoding="async"
               />
@@ -228,6 +234,27 @@ const gallery = Array.from({ length: 9 }, (_, i) => siteImage(`gallery-0${i + 1}
 
   <Footer variant="full" />
 </Base>
+
+<script>
+  // Gallery wall rotation: shows a different set of photos every N days,
+  // cycling through everything in src/assets/site/gallery/. Pure date math —
+  // works on a static host with no rebuilds.
+  const wall = document.querySelector<HTMLElement>('.masonry');
+  if (wall) {
+    const slots = Number(wall.dataset.slots ?? 9);
+    const period = Math.max(1, Number(wall.dataset.periodDays ?? 1));
+    const items = Array.from(wall.children) as HTMLElement[];
+    if (items.length > slots) {
+      const groups = Math.ceil(items.length / slots);
+      const day = Math.floor(Date.now() / 86_400_000 / period);
+      const start = ((day % groups) + groups) % groups * slots;
+      items.forEach((item, i) => {
+        const inWindow = (i - start + items.length) % items.length < slots;
+        item.style.display = inWindow ? 'block' : 'none';
+      });
+    }
+  }
+</script>
 
 <style>
   /* ---- Hero ---- */
@@ -383,6 +410,12 @@ const gallery = Array.from({ length: 9 }, (_, i) => siteImage(`gallery-0${i + 1}
   .masonry {
     column-count: 2;
     column-gap: 10px;
+  }
+
+  /* default (and no-JS): only the first set is visible; the rotation script
+     overrides per-item visibility with inline styles */
+  .masonry > :global(:nth-child(n + 10)) {
+    display: none;
   }
 
   .masonry :global(img) {

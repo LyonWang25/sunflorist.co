@@ -21,6 +21,22 @@ const siteModules = import.meta.glob<{ default: ImageMetadata }>(
   { eager: true },
 );
 
+const galleryModules = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/site/gallery/*.{jpg,jpeg,png,webp}',
+  { eager: true },
+);
+
+/**
+ * Every photo in src/assets/site/gallery/, sorted by filename. Drop new
+ * photos into the folder (npm run gallery converts HEIC and cleans names)
+ * and they are picked up automatically at the next dev/build.
+ */
+export function galleryImages(): ImageMetadata[] {
+  return Object.entries(galleryModules)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([, mod]) => mod.default);
+}
+
 function resolve(
   modules: Record<string, { default: ImageMetadata }>,
   dir: string,
