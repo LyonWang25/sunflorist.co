@@ -37,11 +37,11 @@ const pickupLines = site.pickupLocations.map(
               sizes="150px"
               format="webp"
               quality={80}
-              alt={`WeChat QR code — scan to add ${site.wechatName}`}
+              alt={`WeChat QR code — scan to add ID ${site.wechatId}`}
               loading="lazy"
               decoding="async"
             />
-            <figcaption>WeChat · {site.wechatName}</figcaption>
+            <figcaption>ID · {site.wechatId}</figcaption>
           </figure>
           <figure>
             <Image

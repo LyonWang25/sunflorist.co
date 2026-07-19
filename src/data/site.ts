@@ -47,7 +47,7 @@ export const site = {
   whatsappHref: 'https://wa.me/qr/TTFXAVYSVVD6L1',
   /** WeChat add-friend link (decoded from the account QR); opens the app on mobile */
   wechatHref: 'https://u.wechat.com/kIACFMbe_rQ6tbAersGJJbY',
-  wechatName: 'SunFlorist',
+  wechatId: 'sunfloristco',
   instagramHref: 'https://www.instagram.com/sun_florist.co/',
   instagramHandle: '@sun_florist.co',
   /** RedNote (Xiaohongshu / 小紅書) profile */
