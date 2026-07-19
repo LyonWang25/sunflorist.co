@@ -9,7 +9,10 @@ interface Props {
 
 const { variant = 'compact' } = Astro.props;
 const year = new Date().getFullYear();
-const napLine = `${site.address.street}, ${site.address.city}, ${site.address.region}`;
+const addressLines = site.pickupLocations.map(
+  (loc) => `${loc.street}, ${loc.city}, ${loc.region} ${loc.postalCode}`,
+);
+const napLine = site.pickupLocations.map((loc) => `${loc.city}, ${loc.region}`).join(' · ');
 ---
 
 {
@@ -21,9 +24,9 @@ const napLine = `${site.address.street}, ${site.address.city}, ${site.address.re
           <p>Hand-composed florals for daily life, weddings and events.</p>
         </div>
         <div>
-          <span class="footer-heading">Visit</span>
+          <span class="footer-heading">Pick up</span>
           <ul class="footer-list">
-            <li>{napLine}</li>
+            {addressLines.map((line) => <li>{line}</li>)}
             <li>{site.phoneDisplay}</li>
             <li>{site.hours.label}</li>
           </ul>

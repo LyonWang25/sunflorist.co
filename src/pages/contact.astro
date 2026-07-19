@@ -10,12 +10,14 @@ import { breadcrumbJsonLd, floristJsonLd } from '../data/jsonld';
 import { siteImage } from '../utils/images';
 
 const crumbs = [{ name: 'Home', path: '/' }, { name: 'Contact' }];
-const addressLine = `${site.address.street}, ${site.address.city}, ${site.address.region}`;
+const pickupLines = site.pickupLocations.map(
+  (loc) => `${loc.street}, ${loc.city}, ${loc.region} ${loc.postalCode}`,
+);
 ---
 
 <Base
   title="Contact | Sun Florist"
-  description={`Order flowers or start a wedding consultation — WhatsApp, WeChat, Instagram or phone. Visit us at ${addressLine}. Serving ${site.serviceAreaLong}.`}
+  description={`Order flowers or start a wedding consultation — WhatsApp, WeChat, Instagram or phone. Pick up in ${site.pickupLocations.map((loc) => `${loc.city}, ${loc.region}`).join(' or ')}. Serving ${site.serviceAreaLong}; preserved florals ship US-wide.`}
   ogImage="/og/contact.jpg"
   jsonLd={[floristJsonLd(), breadcrumbJsonLd(crumbs)]}
 >
@@ -57,10 +59,19 @@ const addressLine = `${site.address.street}, ${site.address.city}, ${site.addres
         </div>
 
         <ul class="hairline-rows contact-info">
-          <li><span class="row-label">Visit</span><span>{addressLine}</span></li>
-          <li><span class="row-label">Phone</span><span class="tnum">{site.phoneDisplay}</span></li>
+          <li>
+            <span class="row-label">Pick up</span>
+            <span class="pickup-list">
+              {pickupLines.map((line) => <span>{line}</span>)}
+            </span>
+          </li>
+          <li>
+            <span class="row-label">Phone</span>
+            <span class="tnum"><a href={site.phoneHref}>{site.phoneDisplay}</a></span>
+          </li>
           <li><span class="row-label">Hours</span><span>{site.hours.label}</span></li>
           <li><span class="row-label">Serving</span><span>{site.serviceAreaShort}</span></li>
+          <li><span class="row-label">Deliver</span><span>{site.delivery}</span></li>
         </ul>
       </div>
 
@@ -117,6 +128,15 @@ const addressLine = `${site.address.street}, ${site.address.city}, ${site.addres
 
   .contact-info li span:last-child {
     text-align: right;
+  }
+
+  .pickup-list {
+    display: grid;
+    gap: var(--space-1);
+  }
+
+  .contact-info a:hover {
+    color: var(--color-accent-700);
   }
 
   .contact-map iframe {

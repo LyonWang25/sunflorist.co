@@ -13,15 +13,14 @@ export function floristJsonLd() {
     url: `${site.url}/`,
     image: `${site.url}/og/home.jpg`,
     telephone: site.phoneE164,
-    address: {
+    address: site.pickupLocations.map((loc) => ({
       '@type': 'PostalAddress',
-      streetAddress: site.address.street,
-      addressLocality: site.address.city,
-      addressRegion: site.address.region,
-      postalCode: site.address.postalCode,
-      addressCountry: site.address.country,
-    },
-    // TODO: add "geo" (GeoCoordinates) once the real address is confirmed
+      streetAddress: loc.street,
+      addressLocality: loc.city,
+      addressRegion: loc.region,
+      postalCode: loc.postalCode,
+      addressCountry: loc.country,
+    })),
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',

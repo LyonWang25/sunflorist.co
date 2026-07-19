@@ -16,17 +16,29 @@ export const site = {
   serviceAreaKicker: 'Washington · Maryland · Virginia · Carolina',
   serviceAreaLong: 'Washington DC, Maryland, Virginia and North Carolina',
 
-  address: {
-    street: 'Street address', // TODO: real street address
-    city: 'City', // TODO: real city
-    region: 'State', // TODO: real state (e.g. MD)
-    postalCode: '00000', // TODO: real ZIP
-    country: 'US',
-  },
+  /** pickup locations — first entry is the primary address for NAP/JSON-LD */
+  pickupLocations: [
+    {
+      street: '610 Corbett St',
+      city: 'Morrisville',
+      region: 'NC',
+      postalCode: '27560',
+      country: 'US',
+    },
+    {
+      street: '1451 28th St S',
+      city: 'Arlington',
+      region: 'VA',
+      postalCode: '22206',
+      country: 'US',
+    },
+  ],
 
-  phoneDisplay: '+1 (000) 000-0000', // TODO: real phone
-  phoneHref: 'tel:+10000000000', // TODO: real phone (E.164)
-  phoneE164: '+1-000-000-0000', // TODO: real phone for JSON-LD
+  phoneDisplay: '919-510-2830',
+  phoneHref: 'tel:+19195102830',
+  phoneE164: '+1-919-510-2830',
+
+  delivery: 'United States · preserved florals only',
 
   /** official WhatsApp contact link (decoded from the account QR) */
   whatsappHref: 'https://wa.me/qr/TTFXAVYSVVD6L1',
@@ -37,12 +49,13 @@ export const site = {
   instagramHandle: '@sun_florist.co',
 
   hours: {
-    label: 'Mon–Sat · 9:00–19:00',
+    label: 'Mon–Sat · 9:00–20:00',
     days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
     opens: '09:00',
-    closes: '19:00',
+    closes: '20:00',
   },
 
-  /** TODO: real Google Maps embed URL (share → embed a map) */
-  mapsEmbedUrl: 'https://www.google.com/maps?q=Washington%20DC&output=embed',
+  /** shows the primary (NC) pickup location */
+  mapsEmbedUrl:
+    'https://www.google.com/maps?q=610%20Corbett%20St%2C%20Morrisville%2C%20NC%2027560&output=embed',
 } as const;
