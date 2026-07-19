@@ -15,7 +15,7 @@ const { email = false, layout = 'row' } = Astro.props;
   <a class="btn" href={site.whatsappHref} data-chat-cta>WhatsApp</a>
   <a class="btn" href={site.wechatHref} data-chat-cta>WeChat</a>
   <a class="btn" href={site.instagramHref}>Instagram</a>
-  {email && <a class="btn btn--secondary" href={site.emailHref}>Email</a>}
+  {email && <a class="btn" href={site.emailHref}>Email</a>}
 </div>
 
 <style>
