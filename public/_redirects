@@ -9,7 +9,7 @@
 # collection pages → closest category
 /collections/bouquets /products/category/bouquets/ 301
 /collections/wedding /products/category/wedding-bouquets/ 301
-/collections/all /products/ 301
+/collections/all /products/all/ 301
 /collections/* /products/ 301
 
 # two handles contained emoji and were renamed

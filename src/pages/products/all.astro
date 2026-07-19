@@ -1,0 +1,79 @@
+---
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import PageHead from '../../components/PageHead.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import { categories } from '../../data/categories';
+import { breadcrumbJsonLd } from '../../data/jsonld';
+import { productImage } from '../../utils/images';
+import { getProducts } from '../../utils/products';
+
+// all products, grouped in category order (bouquets → wedding → preserved)
+const categoryOrder = categories.filter((c) => !c.consultationOnly).map((c) => c.slug);
+const products = (await getProducts()).sort(
+  (a, b) =>
+    categoryOrder.indexOf(a.data.category) - categoryOrder.indexOf(b.data.category) ||
+    a.data.order - b.data.order,
+);
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Collections', path: '/products/' },
+  { name: 'All Products' },
+];
+---
+
+<Base
+  title="All Products | Sun Florist"
+  description={`Browse all ${products.length} Sun Florist designs in one place — fresh bouquets, wedding bouquets and preserved florals. Serving DC, MD, VA and NC.`}
+  ogImage="/og/collections.jpg"
+  jsonLd={breadcrumbJsonLd(crumbs)}
+>
+  <Nav current="all-products" />
+  <main>
+    <PageHead
+      {crumbs}
+      title="All Products"
+      lede={`Every design in one place — ${products.length} pieces. Message us your pick.`}
+    />
+
+    <div class="container">
+      <div class="product-grid">
+        {
+          products.map((product, i) => (
+            <ProductCard
+              name={product.data.name}
+              href={`/products/${product.data.slug}/`}
+              image={productImage(product.data.images[0]!)}
+              imageAlt={product.data.description}
+              price={product.data.price}
+              loading={i < 3 ? 'eager' : 'lazy'}
+            />
+          ))
+        }
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Base>
+
+<style>
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4) var(--space-3);
+  }
+
+  @media (min-width: 768px) {
+    .product-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-8) var(--space-6);
+    }
+
+    .product-grid :global(.product-card-media) {
+      aspect-ratio: auto;
+      height: 340px;
+    }
+  }
+</style>
