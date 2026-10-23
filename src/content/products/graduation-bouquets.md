@@ -3,9 +3,16 @@ name: "🎓 Graduation Bouquets"
 slug: "graduation-bouquets"
 no: "B-16"
 category: "bouquets"
-price: 81
+price: 78
 palette: "Yellow · Green · Pink · Blue"
-size: "Color: yellow / green / pink / blue"
+size: "Small / Medium / Large"
+variants:
+  - label: "Small"
+    price: 78
+  - label: "Medium"
+    price: 108
+  - label: "Large"
+    price: 128
 images:
   - "graduation-bouquets-01.jpg"
   - "graduation-bouquets-02.jpg"

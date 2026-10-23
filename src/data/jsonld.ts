@@ -59,8 +59,19 @@ export function productJsonLd(opts: {
   description: string;
   imageUrls: string[];
   price: number;
+  /** size options priced separately — one Offer each */
+  variants?: { label: string; price: number }[];
   path: string;
 }) {
+  const offer = (price: number, name?: string) => ({
+    '@type': 'Offer',
+    ...(name ? { name } : {}),
+    price: String(price),
+    priceCurrency: 'USD',
+    availability: 'https://schema.org/InStock',
+    url: `${site.url}${opts.path}`,
+  });
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -68,12 +79,8 @@ export function productJsonLd(opts: {
     image: opts.imageUrls,
     description: opts.description,
     brand: { '@type': 'Brand', name: site.name },
-    offers: {
-      '@type': 'Offer',
-      price: String(opts.price),
-      priceCurrency: 'USD',
-      availability: 'https://schema.org/InStock',
-      url: `${site.url}${opts.path}`,
-    },
+    offers: opts.variants
+      ? opts.variants.map((v) => offer(v.price, v.label))
+      : offer(opts.price),
   };
 }

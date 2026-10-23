@@ -7,7 +7,8 @@ interface Props {
   href: string;
   image: ImageMetadata;
   imageAlt: string;
-  price?: number;
+  /** formatted, e.g. "$126" or "From $318" (see formatPrice) */
+  price?: string;
   loading?: 'eager' | 'lazy';
 }
 
@@ -29,7 +30,7 @@ const { name, href, image, imageAlt, price, loading = 'lazy' } = Astro.props;
   </div>
   <div class="product-card-row">
     <span class="product-card-name">{name}</span>
-    {price !== undefined && <span class="product-card-price tnum">${price}</span>}
+    {price !== undefined && <span class="product-card-price tnum">{price}</span>}
   </div>
 </a>
 

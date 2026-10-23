@@ -10,7 +10,7 @@ import { site } from '../../data/site';
 import { getCategory } from '../../data/categories';
 import { breadcrumbJsonLd, productJsonLd } from '../../data/jsonld';
 import { productImage, productImagePath } from '../../utils/images';
-import { getProducts, type Product } from '../../utils/products';
+import { formatPrice, getProducts, type Product } from '../../utils/products';
 import { blurDataUrl } from '../../utils/blur';
 
 export async function getStaticPaths() {
@@ -23,7 +23,7 @@ interface Props {
 }
 
 const { product } = Astro.props;
-const { name, no, category, price, palette, size, images, description } = product.data;
+const { name, no, category, price, palette, size, variants, images, description } = product.data;
 const cat = getCategory(category)!;
 const path = `/products/${product.data.slug}/`;
 
@@ -67,6 +67,7 @@ const jsonLd = [
     description,
     imageUrls: jsonLdImages.map((img) => `${site.url}${img.src}`),
     price,
+    variants,
     path,
   }),
   breadcrumbJsonLd([
@@ -172,13 +173,29 @@ const jsonLd = [
       <div class="pd-info">
         <Breadcrumbs crumbs={visibleCrumbs} align="left" />
         <h1>{name}</h1>
-        <p class="pd-price tnum">${price}</p>
+        <p class="pd-price tnum">{formatPrice(product.data)}</p>
         <p class="pd-description">{description}</p>
 
         <ul class="hairline-rows pd-specs">
           <li><span class="row-label">No.</span><span class="tnum">{no}</span></li>
           <li><span class="row-label">Palette</span><span>{palette}</span></li>
-          <li><span class="row-label">Size</span><span>{size}</span></li>
+          <li>
+            <span class="row-label">Size</span>
+            {
+              variants ? (
+                <span class="pd-variants">
+                  {variants.map((v) => (
+                    <>
+                      <span>{v.label}</span>
+                      <span class="tnum">${v.price}</span>
+                    </>
+                  ))}
+                </span>
+              ) : (
+                <span>{size}</span>
+              )
+            }
+          </li>
         </ul>
 
         <div class="pd-order">
@@ -186,7 +203,7 @@ const jsonLd = [
           <p>
             Message us <strong>“{name} · {no}”</strong> on any of these — we reply the same day.
           </p>
-          <ContactButtons />
+          <ContactButtons rednote={false} />
         </div>
       </div>
     </div>
@@ -204,7 +221,7 @@ const jsonLd = [
                 href={`/products/${p.data.slug}/`}
                 image={productImage(p.data.images[0]!)}
                 imageAlt={p.data.description}
-                price={p.data.price}
+                price={formatPrice(p.data)}
                 loading="lazy"
               />
             ))}
@@ -457,6 +474,15 @@ const jsonLd = [
   .pd-specs {
     margin-block: var(--space-6);
     text-align: left;
+  }
+
+  /* size options: label · price pairs stacked on the right of the Size row */
+  .pd-variants {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: var(--space-5);
+    row-gap: var(--space-1);
+    text-align: right;
   }
 
   .pd-order {
