@@ -1,11 +1,16 @@
 ---
-name: "Pink Lychee Roses( 24/36/52 stems)"
+name: "Pink Lychee Roses"
 slug: "52-lychee-pink-garden-roses"
 no: "B-37"
 category: "bouquets"
-price: 380
+price: 368
 palette: "Pink"
-size: "Stems: 36 / 52"
+size: "Stems: 36 / 50"
+variants:
+  - label: "36 stems"
+    price: 368
+  - label: "50 stems"
+    price: 512
 images:
   - "52-lychee-pink-garden-roses-01.jpg"
   - "52-lychee-pink-garden-roses-02.jpg"
